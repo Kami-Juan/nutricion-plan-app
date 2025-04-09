@@ -1,40 +1,26 @@
 'use client';
 
-import { Equivalents, EquivalentType } from '@/types';
+import { Equivalents } from '@/types';
 import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Clock, ChevronDown, Apple, Coffee, Moon } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
+import { getEquivalentItems } from '@/api/equivalent';
+import { useMutation } from '@tanstack/react-query';
 
 type EquivalentItemsProps = {
   data: Equivalents;
 };
 
 export const EquivalentItems = ({ data }: EquivalentItemsProps) => {
-  const renderEquivalentItem = (item: EquivalentType) => (
-    <div className="flex items-center justify-between p-3 rounded-lg hover:bg-secondary/5 transition-colors">
-      <div className="flex flex-col">
-        <span className="font-medium">{item.title}</span>
-        <span className="text-sm text-muted-foreground">
-          {item.typeDescription}
-        </span>
-      </div>
-      <div className="flex items-center gap-2">
-        <Badge variant="outline" className="bg-primary/5">
-          {item.amount}
-        </Badge>
-        <Badge variant="secondary">
-          {item.portion} porción{item.portion !== 1 ? 'es' : ''}
-        </Badge>
-      </div>
-    </div>
-  );
+  const mutation = useMutation({
+    mutationFn: ({ c, gs }: { c: number; gs: string }) =>
+      getEquivalentItems(c, gs),
+  });
 
   return (
     <ScrollArea className="h-[600px] w-full pr-4">
@@ -49,7 +35,7 @@ export const EquivalentItems = ({ data }: EquivalentItemsProps) => {
                   </div>
                 </AccordionTrigger>
                 <AccordionContent>
-                  <CardContent className="space-y-4">Hello world</CardContent>
+                  <CardContent className="space-y-4"></CardContent>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
