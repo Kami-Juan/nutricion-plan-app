@@ -1,5 +1,6 @@
-import { MenuPlanDayItem } from '@/types';
 import fs from 'fs/promises';
+
+import { MenuPlanDayItem } from '@/types';
 
 export const getNutritionPlanData = async (): Promise<
   Array<MenuPlanDayItem>

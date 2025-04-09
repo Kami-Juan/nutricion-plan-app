@@ -1,7 +1,8 @@
 'use client';
 
-import { MenuPlanDayItem } from '@/types';
 import { CalendarDays, ChefHat } from 'lucide-react';
+
+import { Badge } from '@/components/ui/badge';
 import {
   Select,
   SelectContent,
@@ -11,7 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { Badge } from '@/components/ui/badge';
+import { MenuPlanDayItem } from '@/types';
 
 type SearchMenuDayProps = {
   onChange: (index: number) => void;

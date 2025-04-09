@@ -1,47 +1,92 @@
 'use client';
 
-import { Equivalents } from '@/types';
-import { Card, CardContent } from '@/components/ui/card';
-import { ScrollArea } from '@/components/ui/scroll-area';
+import { useMutation } from '@tanstack/react-query';
+import { Scale } from 'lucide-react';
+import { useState } from 'react';
+
+import { getEquivalentItems } from '@/api/equivalent';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { getEquivalentItems } from '@/api/equivalent';
-import { useMutation } from '@tanstack/react-query';
+import { Card } from '@/components/ui/card';
+import { Equivalents } from '@/types';
+
+import { EquivalentDialog } from '../EquivalentDialog';
+import { EquivalentPeriodInfo } from '../EquivalentPeriodInfo';
 
 type EquivalentItemsProps = {
   data: Equivalents;
 };
 
 export const EquivalentItems = ({ data }: EquivalentItemsProps) => {
+  const [selectedEquivalent, setSelectedEquivalent] = useState<{
+    title: string;
+    c: number;
+    gs: string;
+  } | null>(null);
+
   const mutation = useMutation({
     mutationFn: ({ c, gs }: { c: number; gs: string }) =>
       getEquivalentItems(c, gs),
   });
 
+  const handleEquivalentClick = async (
+    c: number,
+    gs: string,
+    title: string
+  ) => {
+    setSelectedEquivalent({ title, c, gs });
+    await mutation.mutateAsync({ c, gs });
+  };
+
   return (
-    <ScrollArea className="h-[600px] w-full pr-4">
-      <div className="space-y-4">
-        {Object.entries(data).map(([key, items]) => (
-          <Card key={key} className={` border-none shadow-sm`}>
+    <>
+      <div className="space-y-4 mt-2">
+        {Object.entries(data).map(([period, items]) => (
+          <Card
+            key={period}
+            className="border shadow-sm hover:shadow-md transition-all duration-200"
+          >
             <Accordion type="single" collapsible>
-              <AccordionItem value={key} className="border-none">
-                <AccordionTrigger className="px-6 py-4 hover:no-underline">
+              <AccordionItem value={period} className="border-none">
+                <AccordionTrigger className="px-6 py-4 hover:no-underline group">
                   <div className="flex items-center gap-3">
-                    <span className="text-lg font-medium">{key}</span>
+                    <div className="p-2 rounded-full bg-primary/10">
+                      <Scale className="h-4 w-4 text-primary" />
+                    </div>
+                    <div className="flex flex-col items-start">
+                      <span className="text-lg font-medium">{period}</span>
+                      <span className="text-sm text-muted-foreground">
+                        {items.length} equivalentes disponibles
+                      </span>
+                    </div>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent>
-                  <CardContent className="space-y-4"></CardContent>
+                  <EquivalentPeriodInfo
+                    items={items}
+                    onOpen={(item) =>
+                      handleEquivalentClick(
+                        item.request.c,
+                        item.request.gs,
+                        period
+                      )
+                    }
+                  />
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
           </Card>
         ))}
       </div>
-    </ScrollArea>
+      <EquivalentDialog
+        open={!!selectedEquivalent}
+        onOpenChange={() => setSelectedEquivalent(null)}
+        equivalentData={selectedEquivalent}
+      />
+    </>
   );
 };

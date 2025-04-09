@@ -1,3 +1,5 @@
+import { NutritionalEquivalentKey } from '@/lib/constants';
+
 export type MenuPlanDayItem = {
   periods: Period[];
   equivalents: Equivalents;
@@ -33,6 +35,8 @@ export type EquivalentType = {
   period: EquivalentPeriod;
   request: {
     c: number;
-    gs: string;
+    gs: NutritionalEquivalentKey;
   };
 };
+
+export type Ingredients = { name: string; portion: string };
