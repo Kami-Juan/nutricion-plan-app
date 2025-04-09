@@ -1,7 +1,18 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        // https://cdn.minutrimind.net/epco/user_r_img/thumb/833098_309.jpg
+        protocol: 'https',
+        hostname: 'cdn.minutrimind.net',
+        port: '',
+        pathname: '/epco/user_r_img/thumb/**',
+        search: '',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
