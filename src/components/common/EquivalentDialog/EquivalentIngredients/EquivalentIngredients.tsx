@@ -1,6 +1,5 @@
 import { Utensils } from 'lucide-react';
 
-import { Badge } from '@/components/ui/badge';
 import { Ingredients } from '@/types';
 
 type EquivalentIngredientsProps = {
@@ -26,15 +25,10 @@ export const EquivalentIngredients = ({
               <h3 className="font-medium leading-none mb-1">
                 {ingredient.name}
               </h3>
-              <p className="text-sm text-muted-foreground">Ingrediente</p>
+              <p className="text-sm text-muted-foreground">
+                {ingredient.portion}
+              </p>
             </div>
-
-            <Badge
-              variant="secondary"
-              className="group-hover:bg-primary/10 transition-colors"
-            >
-              {ingredient.portion}
-            </Badge>
           </div>
         </div>
       ))}

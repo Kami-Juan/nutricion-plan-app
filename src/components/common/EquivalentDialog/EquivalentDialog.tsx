@@ -44,7 +44,6 @@ export const EquivalentDialog = ({
             <Skeleton className="h-4 w-[200px]" />
             <Skeleton className="h-3 w-[160px]" />
           </div>
-          <Skeleton className="h-6 w-16" />
         </div>
       ))}
     </div>

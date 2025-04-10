@@ -1,6 +1,7 @@
 import { NutritionalEquivalentKey } from '@/lib/constants';
 
 export type MenuPlanDayItem = {
+  date: string;
   periods: Period[];
   equivalents: Equivalents;
 };

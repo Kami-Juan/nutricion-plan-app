@@ -16,8 +16,12 @@ type MenuPlanProps = {
 export const MenuPlan = ({ menus }: MenuPlanProps) => {
   const [selectedMenu, setSelectedMenu] = useState<MenuPlanDayItem>(menus[0]);
 
-  const getMenu = (index: number) => {
-    setSelectedMenu(menus[index]);
+  const getMenu = (index: string) => {
+    const menu = menus.find((menu) => menu.date === index);
+
+    if (!menu) return;
+
+    setSelectedMenu(menu);
   };
 
   return (

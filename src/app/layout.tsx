@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'Tu App de Nutrición',
     images: [
       {
-        url: '/icon0.svg', // Reemplaza con la URL de tu imagen OG
+        url: '/icon0.svg',
         width: 1200,
         height: 630,
         alt: 'Imagen representativa de la app de nutrición',
