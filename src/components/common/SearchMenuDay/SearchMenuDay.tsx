@@ -4,7 +4,6 @@ import groupBy from 'lodash/groupBy';
 import { CalendarDays, ChefHat } from 'lucide-react';
 import { useMemo } from 'react';
 
-import { Badge } from '@/components/ui/badge';
 import {
   Select,
   SelectContent,
@@ -14,6 +13,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
+import { getSpainDate } from '@/lib/utils';
 import { MenuPlanDayItem } from '@/types';
 
 type SearchMenuDayProps = {
@@ -51,20 +51,14 @@ export const SearchMenuDay = ({ menus, onChange }: SearchMenuDayProps) => {
                   className="hover:bg-primary/5 cursor-pointer group relative"
                 >
                   <div className="flex items-center justify-between gap-4">
-                    <span className="font-medium">
-                      Menú{' '}
-                      {new Date(menu.date).toLocaleDateString('es-ES', {
-                        day: 'numeric',
-                        month: 'long',
-                        year: 'numeric',
-                      })}
+                    <span className="font-medium flex items-center gap-2 text-sm">
+                      <span className="text-muted-foreground">
+                        Menú para el
+                      </span>
+                      <span className="text-primary">
+                        {getSpainDate(menu.date)}
+                      </span>
                     </span>
-                    <Badge
-                      variant="secondary"
-                      className="group-hover:bg-primary/10 transition-colors"
-                    >
-                      {menu.periods.length} comidas
-                    </Badge>
                   </div>
                 </SelectItem>
               ))}

@@ -1,4 +1,4 @@
-import { Check } from 'lucide-react';
+import { Check, Star } from 'lucide-react';
 
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -47,12 +47,15 @@ export const MenuDishCard = ({ dish }: MenuDishCardProps) => {
           </div>
         </ScrollArea>
       </CardContent>
-      <CardFooter className="flex justify-end border-t bg-secondary/5 py-3">
+      <CardFooter className="flex justify-between border-t bg-secondary/5 py-3">
         <Button
           variant="outline"
           className="hover:bg-primary hover:text-white transition-colors"
         >
           Ver imagen
+        </Button>
+        <Button variant="outline" size="icon">
+          <Star fill="yellow" strokeWidth={2} />
         </Button>
       </CardFooter>
     </Card>

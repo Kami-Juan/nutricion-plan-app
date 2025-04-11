@@ -10,7 +10,7 @@ export const EquivalentIngredients = ({
   ingredients,
 }: EquivalentIngredientsProps) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 gap-4">
       {ingredients.map((ingredient, index) => (
         <div
           key={index}
@@ -22,9 +22,7 @@ export const EquivalentIngredients = ({
 
           <div className="flex-1 flex items-center justify-between">
             <div>
-              <h3 className="font-medium leading-none mb-1">
-                {ingredient.name}
-              </h3>
+              <p className="font-medium leading-none mb-1">{ingredient.name}</p>
               <p className="text-sm text-muted-foreground">
                 {ingredient.portion}
               </p>

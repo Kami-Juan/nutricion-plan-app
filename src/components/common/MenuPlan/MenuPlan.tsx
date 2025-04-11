@@ -26,7 +26,7 @@ export const MenuPlan = ({ menus }: MenuPlanProps) => {
 
   return (
     <>
-      <section className="w-full">
+      <section className="w-full mb-4">
         <SearchMenuDay onChange={(index) => getMenu(index)} menus={menus} />
       </section>
       <section className="w-full">
