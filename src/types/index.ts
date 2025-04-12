@@ -4,6 +4,7 @@ export type MenuPlanDayItem = {
   date: string;
   periods: Period[];
   equivalents: Equivalents;
+  equivalentTable: EquivalentTableItem[];
 };
 
 export type Period = {
@@ -38,6 +39,11 @@ export type EquivalentType = {
     c: number;
     gs: NutritionalEquivalentKey;
   };
+};
+
+export type EquivalentTableItem = {
+  type: string;
+  portion: number;
 };
 
 export type Ingredients = { name: string; portion: string };

@@ -37,10 +37,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Bugs
 
-- [ ] Should selectthe default menu
-- [ ] Order months of plans
-- [ ] Display table of equivalences
+- [x] Should selectthe default menu
+- [x] Order months of plans
+- [x] Normalize titles of dishes and equivalencs
+- [x] Display table of equivalences
+- [x] Remove metadatabase key for metadata
+
 - [ ] Add sidebar for Favorite dishes of week
-- [ ] Normalize titles of dishes and equivalencs
 - [ ] Add unit tests
 - [ ] Add image food photo

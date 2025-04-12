@@ -3,7 +3,7 @@
     "date": "06-17-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:30 AM)",
+        "period": "Desayuno 10:30",
         "dishes": [
           {
             "title": "Chilaquiles con pollo y queso",
@@ -31,7 +31,7 @@
         ]
       },
       {
-        "period": "  Medio día (12:00 PM)",
+        "period": "Medio día 12:00",
         "dishes": [
           {
             "title": "Uva verde",
@@ -50,10 +50,10 @@
         ]
       },
       {
-        "period": "  Comida (03:00 PM)",
+        "period": "Comida 15:00",
         "dishes": [
           {
-            "title": "Calabacita rellena de carne molida (opción de Tabom)",
+            "title": "Calabacita rellena de carne molida opción de Tabom",
             "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/bb760964.jpg",
             "ingredients": [
               "Calabaza cruda 60 g, 1 pieza",
@@ -79,7 +79,7 @@
         ]
       },
       {
-        "period": "  Cena (08:00 PM)",
+        "period": "Cena 20:00",
         "dishes": [
           {
             "title": "Quesadillas de champiñones",
@@ -220,13 +220,83 @@
           "period": "Cena 20:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 4
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 6.5
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0.5
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 8
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 5
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 1
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 2.5
+      },
+      {
+        "type": "Grasa",
+        "portion": 5.5
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "06-18-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:30 AM)",
+        "period": "Desayuno 10:30",
         "dishes": [
           {
             "title": "Huevo con espinacas",
@@ -237,7 +307,7 @@
             ]
           },
           {
-            "title": "Salmas (Sanissimo)",
+            "title": "Salmas Sanissimo",
             "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752061_446.jpg",
             "ingredients": [
               "Salmas 18 g, 3 piezas"
@@ -260,7 +330,7 @@
         ]
       },
       {
-        "period": "  Medio día (12:00 PM)",
+        "period": "Medio día 12:00",
         "dishes": [
           {
             "title": "Licuado de fresa y avena",
@@ -277,7 +347,7 @@
         ]
       },
       {
-        "period": "  Comida (03:00 PM)",
+        "period": "Comida 15:00",
         "dishes": [
           {
             "title": "Alambre de pollo",
@@ -308,10 +378,10 @@
         ]
       },
       {
-        "period": "  Cena (08:00 PM)",
+        "period": "Cena 20:00",
         "dishes": [
           {
-            "title": "Wrap de pavo y hummus (opción en Green Up)",
+            "title": "Wrap de pavo y hummus opción en Green Up",
             "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/708d9094.jpg",
             "ingredients": [
               "Pan pita integral 60 g, 1 pieza",
@@ -468,13 +538,83 @@
           "period": "Cena 20:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1.5
+      },
+      {
+        "type": "Verdura",
+        "portion": 5.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 9.5
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 2
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 1
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 3
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 1
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "06-19-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:30 AM)",
+        "period": "Desayuno 10:30",
         "dishes": [
           {
             "title": "Agua de pepino con limon",
@@ -499,7 +639,7 @@
         ]
       },
       {
-        "period": "  Medio día (12:00 PM)",
+        "period": "Medio día 12:00",
         "dishes": [
           {
             "title": "Licuado de platano y chocolate",
@@ -515,7 +655,7 @@
         ]
       },
       {
-        "period": "  Comida (03:00 PM)",
+        "period": "Comida 15:00",
         "dishes": [
           {
             "title": "Tzic de res",
@@ -546,7 +686,7 @@
         ]
       },
       {
-        "period": "  Cena (08:00 PM)",
+        "period": "Cena 20:00",
         "dishes": [
           {
             "title": "Mollete con pico de gallo",
@@ -685,13 +825,83 @@
           "period": "Cena 20:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 2.5
+      },
+      {
+        "type": "Verdura",
+        "portion": 3.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 6.5
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 1
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 1
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 1
+      },
+      {
+        "type": "Grasa",
+        "portion": 3
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "06-20-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:30 AM)",
+        "period": "Desayuno 10:30",
         "dishes": [
           {
             "title": "Agua de pepino con limon",
@@ -717,7 +927,7 @@
         ]
       },
       {
-        "period": "  Medio día (12:00 PM)",
+        "period": "Medio día 12:00",
         "dishes": [
           {
             "title": "Carlota de Mango",
@@ -731,7 +941,7 @@
         ]
       },
       {
-        "period": "  Comida (03:00 PM)",
+        "period": "Comida 15:00",
         "dishes": [
           {
             "title": "Enchiladas Verdes Saludables",
@@ -758,7 +968,7 @@
         ]
       },
       {
-        "period": "  Cena (08:00 PM)",
+        "period": "Cena 20:00",
         "dishes": [
           {
             "title": "Sándwich verde",
@@ -896,13 +1106,83 @@
           "period": "Cena 20:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 3
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 8
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 5
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 6.5
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 1.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 3
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "06-21-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:30 AM)",
+        "period": "Desayuno 10:30",
         "dishes": [
           {
             "title": "Hot cakes de avena",
@@ -916,7 +1196,7 @@
             ]
           },
           {
-            "title": "Miel maple sin azúcar (D'Gari)",
+            "title": "Miel maple sin azúcar D'Gari",
             "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/666901_536.jpg",
             "ingredients": [
               "Miel maple sin azúcar (DGari) 15 g, 1 cucharada"
@@ -932,7 +1212,7 @@
         ]
       },
       {
-        "period": "  Medio día (12:00 PM)",
+        "period": "Medio día 12:00",
         "dishes": [
           {
             "title": "Moras con Yogurt",
@@ -952,7 +1232,7 @@
         ]
       },
       {
-        "period": "  Comida (03:00 PM)",
+        "period": "Comida 15:00",
         "dishes": [
           {
             "title": "Fajitas de pollo con morrón",
@@ -987,7 +1267,7 @@
         ]
       },
       {
-        "period": "  Cena (08:00 PM)",
+        "period": "Cena 20:00",
         "dishes": [
           {
             "title": "Quesadilla de maiz",
@@ -1124,13 +1404,83 @@
           "period": "Cena 20:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 4
+      },
+      {
+        "type": "Verdura",
+        "portion": 1.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 7
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 1
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 1.5
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 7
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 1
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 5.5
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "07-15-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Enfrijoladas de huevo a la mexicana",
@@ -1148,7 +1498,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Tostadas de pollo en salsa verde frijol",
@@ -1170,7 +1520,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Rice cake de crema de cacahuate y pláta",
@@ -1184,7 +1534,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Pizza fit",
@@ -1336,13 +1686,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 0.5
+      },
+      {
+        "type": "Verdura",
+        "portion": 3.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 8
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 2
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 3
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 1
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 1
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "07-16-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Sandwich de pechuga de pollo",
@@ -1361,7 +1781,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Sopa de pollo con lentejas",
@@ -1378,7 +1798,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Uvas pica fresa",
@@ -1389,7 +1809,7 @@
             ]
           },
           {
-            "title": "Gelatina D'Gari light (Sabor fresa)",
+            "title": "Gelatina D'Gari light Sabor fresa",
             "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/255219_374.jpg",
             "ingredients": [
               "Gelatina D'Gari ligth (Polvo sabor fresa) 62.5 g, ¼ taza"
@@ -1398,7 +1818,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Crepas de espinacas rellenas de champiñ",
@@ -1518,13 +1938,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 10
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 3.5
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 1
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 8
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0.5
+      },
+      {
+        "type": "Grasa",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "07-17-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Pan francés",
@@ -1542,7 +2032,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Caldo tlalpeño",
@@ -1569,7 +2059,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Overnight Oats crema de cacahuate y plat",
@@ -1586,7 +2076,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Carne de hamburguesa de pollo magra",
@@ -1745,13 +2235,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 2
+      },
+      {
+        "type": "Verdura",
+        "portion": 2
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 4
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0.5
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 7
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 3
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 1
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 1
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "07-18-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Chilaquiles en salsa de frijoles",
@@ -1774,7 +2334,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Ensalada de pollo con aguacate",
@@ -1792,7 +2352,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Cacahuates",
@@ -1804,7 +2364,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Bowl avena cocida y crema de maní",
@@ -1937,13 +2497,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1.5
+      },
+      {
+        "type": "Verdura",
+        "portion": 1
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 5
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 2
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 7
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 1
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 2
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 1
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 4
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "07-19-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Huevos estrellados a la mexicana",
@@ -1960,7 +2590,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Tacos de carnitas de atún",
@@ -1982,7 +2612,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Kiwi con yogurth",
@@ -1996,7 +2626,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Guacamole con queso panela",
@@ -2138,13 +2768,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 5.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 6
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 3
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 3.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0.5
+      },
+      {
+        "type": "Grasa",
+        "portion": 2.5
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "08-12-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Huevos motuleños",
@@ -2168,7 +2868,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Poke bowl de quinoa y atún",
@@ -2187,7 +2887,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Yogurt con fresa arandanos y avena",
@@ -2203,7 +2903,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Sándwich tostado",
@@ -2355,13 +3055,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 6
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 1.5
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 6.5
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 3
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 3.5
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 1
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "08-13-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Avena con manzana canela",
@@ -2378,7 +3148,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Wrap de pollo",
@@ -2399,7 +3169,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Carlota de Mango",
@@ -2413,7 +3183,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Quesadillas de champiñón con panela",
@@ -2552,13 +3322,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 2.5
+      },
+      {
+        "type": "Verdura",
+        "portion": 4
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 4
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 2
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 3
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 3.5
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 2.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 2.5
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0.5
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "08-14-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Mollete con pico de gallo",
@@ -2576,7 +3416,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Calabacita rellena de carne molida",
@@ -2611,7 +3451,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Jícama con pepino",
@@ -2631,7 +3471,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Tacos de carnitas de atún",
@@ -2754,13 +3594,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 0
+      },
+      {
+        "type": "Verdura",
+        "portion": 3.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 6
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 2.5
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 3
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 7
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 2.5
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "08-15-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Chilaquiles en salsa de frijoles",
@@ -2777,10 +3687,10 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
-            "title": "Enchiladas (tabom)",
+            "title": "Enchiladas tabom",
             "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/281270_236.jpg",
             "ingredients": [
               "Crema agria reducida en grasa 7 ml, ½ cucharada",
@@ -2804,7 +3714,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Rice cake de crema de cacahuate y pláta",
@@ -2818,7 +3728,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Tacos de bistec",
@@ -2970,13 +3880,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 0.5
+      },
+      {
+        "type": "Verdura",
+        "portion": 2.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 9
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 2
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 6
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 3.5
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 1
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "08-16-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Enfrijoladas",
@@ -2993,10 +3973,10 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
-            "title": "Hamburguesa de Soya (hamburguesa Sorriso de Tabom)",
+            "title": "Hamburguesa de Soya hamburguesa Sorriso de Tabom",
             "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/307039_395.jpg",
             "ingredients": [
               "Soya cocida 57 g",
@@ -3043,7 +4023,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Uvas pica fresa",
@@ -3054,7 +4034,7 @@
             ]
           },
           {
-            "title": "Gelatina D'Gari light (sabor fresa)",
+            "title": "Gelatina D'Gari light sabor fresa",
             "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/255219_374.jpg",
             "ingredients": [
               "Gelatina D'Gari ligth (VPolvo sabor fresa) 62.5 g, ¼ taza"
@@ -3063,7 +4043,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Pizza fit",
@@ -3194,13 +4174,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 2.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 8.5
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 2
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0.5
+      },
+      {
+        "type": "Grasa",
+        "portion": 3
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "09-02-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Omelette a la mexicana",
@@ -3225,7 +4275,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Salpicón fit",
@@ -3244,7 +4294,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Rice cake de crema de cacahuate y pláta",
@@ -3258,7 +4308,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Mollete con pan bimbo cero",
@@ -3390,13 +4440,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 0.5
+      },
+      {
+        "type": "Verdura",
+        "portion": 1.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 6.5
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 1
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 5
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 2
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 1
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "09-03-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Smothie Bowl chocoplatano",
@@ -3413,7 +4533,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Sopa de nopal y chile guajillo",
@@ -3432,7 +4552,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Brownies fiber one",
@@ -3451,7 +4571,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Tacos de arrachera",
@@ -3605,13 +4725,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 2
+      },
+      {
+        "type": "Verdura",
+        "portion": 7
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 3.5
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 1
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 3.5
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 3.5
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 1.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 1
+      },
+      {
+        "type": "Grasa",
+        "portion": 2
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 1.5
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "09-04-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Omelette a la mexicana",
@@ -3629,7 +4819,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Salpicón fit",
@@ -3648,7 +4838,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Rice cake de crema de cacahuate y pláta",
@@ -3662,7 +4852,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Mollete con pan bimbo cero",
@@ -3787,13 +4977,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 0.5
+      },
+      {
+        "type": "Verdura",
+        "portion": 1.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 4
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 1
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 5
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0
+      },
+      {
+        "type": "Grasa",
+        "portion": 2
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 1
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "09-05-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Overnight de chocolate y avena",
@@ -3811,7 +5071,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Burrito fit",
@@ -3830,7 +5090,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Carlota de Mango",
@@ -3844,7 +5104,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Ceviche de atún",
@@ -3969,13 +5229,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 2
+      },
+      {
+        "type": "Verdura",
+        "portion": 4.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 6
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0.5
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 3
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 2.5
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 2.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0.5
+      },
+      {
+        "type": "Grasa",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 2.5
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "09-06-2024",
     "periods": [
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Enfrijoladas",
@@ -3992,7 +5322,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Huarache de nopal con pollo",
@@ -4016,7 +5346,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Frappe de café",
@@ -4038,7 +5368,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Taco de bistec",
@@ -4188,13 +5518,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 2
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 7
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 1.5
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 9
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 1
+      },
+      {
+        "type": "Grasa",
+        "portion": 4
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "10-07-2024",
     "periods": [
       {
-        "period": "  Pre entreno",
+        "period": "Pre entreno",
         "dishes": [
           {
             "title": "Iced coffee",
@@ -4208,7 +5608,7 @@
         ]
       },
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Huevos divorciados",
@@ -4230,7 +5630,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Pasta al chipotle alta en proteína",
@@ -4247,7 +5647,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Naranja en gajos con chile",
@@ -4261,7 +5661,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Sincronizada",
@@ -4400,13 +5800,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 8
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 4
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 2
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 5
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 2
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0.5
+      },
+      {
+        "type": "Grasa",
+        "portion": 3
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "10-08-2024",
     "periods": [
       {
-        "period": "  Pre entreno",
+        "period": "Pre entreno",
         "dishes": [
           {
             "title": "Iced coffee",
@@ -4420,7 +5890,7 @@
         ]
       },
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Hot Cakes de Carlos V",
@@ -4439,7 +5909,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Caldo tlalpeño",
@@ -4458,7 +5928,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Smoothie de toronja y jengibre",
@@ -4474,7 +5944,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Sandwich de Guacamole con queso panela",
@@ -4621,13 +6091,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 2
+      },
+      {
+        "type": "Verdura",
+        "portion": 1.5
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 3
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0.5
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 1
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 1
+      },
+      {
+        "type": "Grasa",
+        "portion": 4
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 1
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "10-09-2024",
     "periods": [
       {
-        "period": "  Pre entreno",
+        "period": "Pre entreno",
         "dishes": [
           {
             "title": "Iced coffee",
@@ -4641,7 +6181,7 @@
         ]
       },
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Tortilla fit",
@@ -4660,7 +6200,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Tacos Sencillos de Pescado",
@@ -4678,7 +6218,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Mandarina",
@@ -4697,7 +6237,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Taquitos de carne asada",
@@ -4824,13 +6364,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 9
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 5
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 0
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 6.5
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 0.5
+      },
+      {
+        "type": "Grasa",
+        "portion": 4
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "10-10-2024",
     "periods": [
       {
-        "period": "  Pre entreno",
+        "period": "Pre entreno",
         "dishes": [
           {
             "title": "Iced coffee",
@@ -4844,7 +6454,7 @@
         ]
       },
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Avena cocida con fruta y coco rallado",
@@ -4860,7 +6470,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Hamburguesa de pollo con ensalada",
@@ -4878,7 +6488,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Choco obleas Turin",
@@ -4892,7 +6502,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Enfrijoladas",
@@ -5031,13 +6641,83 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1.5
+      },
+      {
+        "type": "Verdura",
+        "portion": 0
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 6
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0.5
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 2
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 5
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 2
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 0
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 1
+      },
+      {
+        "type": "Grasa",
+        "portion": 4
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0.5
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   },
   {
     "date": "10-11-2024",
     "periods": [
       {
-        "period": "  Pre entreno",
+        "period": "Pre entreno",
         "dishes": [
           {
             "title": "Iced coffee",
@@ -5051,7 +6731,7 @@
         ]
       },
       {
-        "period": "  Desayuno (10:00 AM)",
+        "period": "Desayuno 10:00",
         "dishes": [
           {
             "title": "Sandwich de huevo y jamón",
@@ -5069,7 +6749,7 @@
         ]
       },
       {
-        "period": "  Comida (01:00 PM)",
+        "period": "Comida 13:00",
         "dishes": [
           {
             "title": "Chilaquiles con pollo y queso",
@@ -5087,7 +6767,7 @@
         ]
       },
       {
-        "period": "  Media tarde (05:00 PM)",
+        "period": "Media tarde 17:00",
         "dishes": [
           {
             "title": "Mandarina",
@@ -5106,7 +6786,7 @@
         ]
       },
       {
-        "period": "  Cena (09:00 PM)",
+        "period": "Cena 21:00",
         "dishes": [
           {
             "title": "Pizza fit",
@@ -5260,6 +6940,76 @@
           "period": "Cena 21:00"
         }
       ]
-    }
+    },
+    "equivalentTable": [
+      {
+        "type": "Fruta",
+        "portion": 1
+      },
+      {
+        "type": "Verdura",
+        "portion": 1
+      },
+      {
+        "type": "Cereales y tubérculos",
+        "portion": 6
+      },
+      {
+        "type": "Cereales con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leguminosas",
+        "portion": 1
+      },
+      {
+        "type": "O.A muy bajo en grasa",
+        "portion": 4
+      },
+      {
+        "type": "O.A. bajo en grasa",
+        "portion": 3.5
+      },
+      {
+        "type": "O.A. moderado en grasa",
+        "portion": 1
+      },
+      {
+        "type": "O.A. alto en grasa",
+        "portion": 0
+      },
+      {
+        "type": "Leche descremada",
+        "portion": 0.5
+      },
+      {
+        "type": "Leche semidescremada",
+        "portion": 0
+      },
+      {
+        "type": "Leche entera",
+        "portion": 0
+      },
+      {
+        "type": "Azúcar",
+        "portion": 4.5
+      },
+      {
+        "type": "Grasa",
+        "portion": 4
+      },
+      {
+        "type": "Azúcar con grasa",
+        "portion": 0
+      },
+      {
+        "type": "Grasa con proteina",
+        "portion": 0
+      },
+      {
+        "type": "Suplemento de proteína",
+        "portion": 0
+      }
+    ]
   }
 ]

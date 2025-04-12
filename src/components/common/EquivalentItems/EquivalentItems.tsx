@@ -12,16 +12,22 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { Card } from '@/components/ui/card';
-import { Equivalents } from '@/types';
+import { Equivalents, EquivalentTableItem } from '@/types';
 
 import { EquivalentDialog } from '../EquivalentDialog';
 import { EquivalentPeriodInfo } from '../EquivalentPeriodInfo';
 
+import { EquivalentTable } from './EquivalentTable/EquivalentTable';
+
 type EquivalentItemsProps = {
   data: Equivalents;
+  equivalentTable: Array<EquivalentTableItem>;
 };
 
-export const EquivalentItems = ({ data }: EquivalentItemsProps) => {
+export const EquivalentItems = ({
+  data,
+  equivalentTable,
+}: EquivalentItemsProps) => {
   const [selectedEquivalent, setSelectedEquivalent] = useState<{
     title: string;
     c: number;
@@ -45,6 +51,9 @@ export const EquivalentItems = ({ data }: EquivalentItemsProps) => {
   return (
     <>
       <div className="space-y-4 mt-2">
+        <div className="bg-gradient-to-r from-primary/5 to-primary/10 rounded-lg mb-4">
+          <EquivalentTable equivalentTable={equivalentTable} />
+        </div>
         {Object.entries(data).map(([period, items]) => (
           <Card
             key={period}

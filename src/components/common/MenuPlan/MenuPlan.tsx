@@ -10,14 +10,18 @@ import { MenuPlanDay } from '../MenuPlanDay';
 import { SearchMenuDay } from '../SearchMenuDay';
 
 type MenuPlanProps = {
-  menus: Array<MenuPlanDayItem>;
+  menus: Record<string, Array<MenuPlanDayItem>>;
 };
 
 export const MenuPlan = ({ menus }: MenuPlanProps) => {
-  const [selectedMenu, setSelectedMenu] = useState<MenuPlanDayItem>(menus[0]);
+  const [selectedMenu, setSelectedMenu] = useState<MenuPlanDayItem>(
+    menus[Object.keys(menus)[0]][0]
+  );
 
-  const getMenu = (index: string) => {
-    const menu = menus.find((menu) => menu.date === index);
+  const getMenu = (selectedDate: string) => {
+    const menu = Object.values(menus)
+      .flat()
+      .find((menu) => menu.date === selectedDate);
 
     if (!menu) return;
 
@@ -27,19 +31,25 @@ export const MenuPlan = ({ menus }: MenuPlanProps) => {
   return (
     <>
       <section className="w-full mb-4">
-        <SearchMenuDay onChange={(index) => getMenu(index)} menus={menus} />
+        <SearchMenuDay
+          onChange={(selectedDate) => getMenu(selectedDate)}
+          menus={menus}
+        />
       </section>
       <section className="w-full">
         <Tabs defaultValue="menu" className="w-full">
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="menu">Menu</TabsTrigger>
-            <TabsTrigger value="equivalent">Equivalents</TabsTrigger>
+            <TabsTrigger value="equivalent">Equivalentes</TabsTrigger>
           </TabsList>
           <TabsContent value="menu">
             <MenuPlanDay data={selectedMenu} />
           </TabsContent>
           <TabsContent value="equivalent">
-            <EquivalentItems data={selectedMenu.equivalents} />
+            <EquivalentItems
+              data={selectedMenu.equivalents}
+              equivalentTable={selectedMenu.equivalentTable}
+            />
           </TabsContent>
         </Tabs>
       </section>
