@@ -7,7 +7,8 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { Card } from '@/components/ui/card';
-import { MenuPlanDayItem } from '@/types';
+import { useFavorites } from '@/hooks/useFavorites';
+import { Dish, EquivalentPeriod, MenuPlanDayItem } from '@/types';
 
 import { MenuDishCard } from '../MenuDishCard';
 
@@ -16,6 +17,22 @@ type MenuPlanDayProps = {
 };
 
 export const MenuPlanDay = ({ data }: MenuPlanDayProps) => {
+  const { toggleFavorite } = useFavorites();
+
+  const onFavorite = async (payload: Dish, period: EquivalentPeriod) => {
+    try {
+      const equivalents = data.equivalents[period];
+
+      await toggleFavorite({
+        id: data.date,
+        dish: payload,
+        equivalent: equivalents,
+      });
+    } catch (error) {
+      console.error('Error toggling favorite:', error);
+    }
+  };
+
   return (
     <div className="space-y-4 mt-2">
       {data.periods.map((period, index) => (
@@ -41,7 +58,11 @@ export const MenuPlanDay = ({ data }: MenuPlanDayProps) => {
               <AccordionContent className="px-6 pb-4">
                 <div className="space-y-4">
                   {period.dishes.map((dish, index) => (
-                    <MenuDishCard dish={dish} key={index} />
+                    <MenuDishCard
+                      dish={dish}
+                      key={index}
+                      onFavorite={() => onFavorite(dish, period.period)}
+                    />
                   ))}
                 </div>
               </AccordionContent>

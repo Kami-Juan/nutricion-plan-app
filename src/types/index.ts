@@ -8,7 +8,7 @@ export type MenuPlanDayItem = {
 };
 
 export type Period = {
-  period: string;
+  period: EquivalentPeriod;
   dishes: Dish[];
 };
 

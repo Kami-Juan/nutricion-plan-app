@@ -14,9 +14,10 @@ import { Dish } from '@/types';
 
 type MenuDishCardProps = {
   dish: Dish;
+  onFavorite: () => void;
 };
 
-export const MenuDishCard = ({ dish }: MenuDishCardProps) => {
+export const MenuDishCard = ({ dish, onFavorite }: MenuDishCardProps) => {
   return (
     <Card className="w-full mb-4 hover:shadow-lg transition-shadow">
       <CardHeader className="border-b bg-secondary/5">
@@ -54,7 +55,7 @@ export const MenuDishCard = ({ dish }: MenuDishCardProps) => {
         >
           Ver imagen
         </Button>
-        <Button variant="outline" size="icon">
+        <Button variant="outline" size="icon" onClick={() => onFavorite()}>
           <Star fill="yellow" strokeWidth={2} />
         </Button>
       </CardFooter>
