@@ -9,7 +9,6 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { ScrollArea } from '@/components/ui/scroll-area';
 import { Dish } from '@/types';
 
 type MenuDishCardProps = {
@@ -32,7 +31,7 @@ export const MenuDishCard = ({ dish, onFavorite }: MenuDishCardProps) => {
         <p className="text-sm font-medium text-muted-foreground mb-4">
           Ingredientes
         </p>
-        <ScrollArea className="h-[200px] pr-4">
+        <div className="pr-4">
           <div className="space-y-2">
             {dish.ingredients.map((ingredient, index) => (
               <div
@@ -46,7 +45,7 @@ export const MenuDishCard = ({ dish, onFavorite }: MenuDishCardProps) => {
               </div>
             ))}
           </div>
-        </ScrollArea>
+        </div>
       </CardContent>
       <CardFooter className="flex justify-between border-t bg-secondary/5 py-3">
         <Button
