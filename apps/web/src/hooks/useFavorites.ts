@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import {
   addFavorite,
-  FavoriteItem,
+  type FavoriteItem,
   getFavorites,
   isFavorite,
   removeFavorite

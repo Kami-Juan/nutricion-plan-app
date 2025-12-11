@@ -11,14 +11,16 @@
   ],
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.cjs"
     },
     "./globals.css": "./src/styles/globals.css"
   },
   "scripts": {
     "build": "vite build",
+    "build:watch": "vite build --watch",
+    "dev": "vite build --watch",
     "format": "biome format --write",
     "lint": "biome check --write",
     "generate:component": "turbo gen react-component",
