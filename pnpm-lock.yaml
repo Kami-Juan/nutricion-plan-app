@@ -104,7 +104,7 @@ catalogs:
       specifier: 15.2.4
       version: 15.2.4
     next-themes:
-      specifier: ^0.4.6
+      specifier: 0.4.6
       version: 0.4.6
     react:
       specifier: ^19.0.0
@@ -150,42 +150,9 @@ importers:
 
   apps/web:
     dependencies:
-      '@radix-ui/react-accordion':
-        specifier: 'catalog:'
-        version: 1.2.12(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@radix-ui/react-alert-dialog':
-        specifier: 'catalog:'
-        version: 1.1.15(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@radix-ui/react-avatar':
-        specifier: 'catalog:'
-        version: 1.1.11(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       '@radix-ui/react-dialog':
         specifier: 'catalog:'
         version: 1.1.15(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@radix-ui/react-dropdown-menu':
-        specifier: 'catalog:'
-        version: 2.1.16(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@radix-ui/react-navigation-menu':
-        specifier: 'catalog:'
-        version: 1.2.14(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@radix-ui/react-popover':
-        specifier: 'catalog:'
-        version: 1.1.15(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@radix-ui/react-scroll-area':
-        specifier: 'catalog:'
-        version: 1.2.10(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@radix-ui/react-select':
-        specifier: 'catalog:'
-        version: 2.2.6(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@radix-ui/react-separator':
-        specifier: 'catalog:'
-        version: 1.1.8(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
-      '@radix-ui/react-slot':
-        specifier: 'catalog:'
-        version: 1.2.4(@types/react@19.2.7)(react@19.2.1)
-      '@radix-ui/react-tabs':
-        specifier: 'catalog:'
-        version: 1.1.13(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       '@tanstack/react-query':
         specifier: 'catalog:'
         version: 5.90.12(react@19.2.1)
@@ -198,15 +165,9 @@ importers:
       cheerio:
         specifier: 'catalog:'
         version: 1.1.2
-      class-variance-authority:
-        specifier: 'catalog:'
-        version: 0.7.1
       clsx:
         specifier: 'catalog:'
         version: 2.1.1
-      cmdk:
-        specifier: 'catalog:'
-        version: 1.1.1(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       idb:
         specifier: 'catalog:'
         version: 8.0.3
@@ -228,12 +189,6 @@ importers:
       react-dom:
         specifier: 'catalog:'
         version: 19.2.1(react@19.2.1)
-      tailwind-merge:
-        specifier: 'catalog:'
-        version: 3.4.0
-      tw-animate-css:
-        specifier: 'catalog:'
-        version: 1.4.0
     devDependencies:
       '@k-health/typescript-configs':
         specifier: workspace:*
@@ -322,6 +277,9 @@ importers:
       lucide-react:
         specifier: 'catalog:'
         version: 0.487.0(react@19.2.1)
+      next-themes:
+        specifier: 'catalog:'
+        version: 0.4.6(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       react:
         specifier: 'catalog:'
         version: 19.2.1

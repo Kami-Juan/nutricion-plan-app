@@ -30,10 +30,10 @@
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
     "@vitejs/plugin-react": "catalog:",
-    "vite-plugin-dts": "4.5.4",
     "tw-animate-css": "catalog:",
     "typescript": "catalog:",
-    "vite": "catalog:"
+    "vite": "catalog:",
+    "vite-plugin-dts": "4.5.4"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "catalog:",
@@ -53,9 +53,12 @@
     "clsx": "catalog:",
     "cmdk": "catalog:",
     "lucide-react": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:",
+    "next-themes": "catalog:",
     "tailwind-merge": "catalog:",
     "tailwindcss": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:"
   }
 }

@@ -1,11 +1,7 @@
-import {
-  dehydrate,
-  HydrationBoundary,
-  QueryClient,
-} from '@tanstack/react-query';
+import { dehydrate, HydrationBoundary, QueryClient } from "@tanstack/react-query";
 
-import { Footer } from '@/components/common/Footer';
-import { Header } from '@/components/common/Header';
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
 
 export default async function Favorites() {
   const queryClient = new QueryClient();

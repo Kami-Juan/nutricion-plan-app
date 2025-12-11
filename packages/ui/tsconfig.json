@@ -6,16 +6,10 @@
     "moduleResolution": "bundler",
     "noEmit": true,
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
     "rootDir": "src",
     "verbatimModuleSyntax": true
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.json"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.json"]
 }

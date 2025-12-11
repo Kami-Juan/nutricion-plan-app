@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 import {
   addFavorite,
   FavoriteItem,
   getFavorites,
   isFavorite,
-  removeFavorite,
-} from '@/api/favorite';
+  removeFavorite
+} from "@/api/favorite";
 
 export const useFavorites = () => {
   const [favorites, setFavorites] = useState<Array<FavoriteItem>>([]);
@@ -21,7 +21,7 @@ export const useFavorites = () => {
       const dishes = await getFavorites();
       setFavorites(dishes);
     } catch (error) {
-      console.error('Error loading favorites:', error);
+      console.error("Error loading favorites:", error);
     } finally {
       setLoading(false);
     }
@@ -39,7 +39,7 @@ export const useFavorites = () => {
         setFavorites([...favorites, request]);
       }
     } catch (error) {
-      console.error('Error toggling favorite:', error);
+      console.error("Error toggling favorite:", error);
     }
   };
 

@@ -633,16 +633,12 @@
             {
               "title": "Mandarina",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/532.png",
-              "ingredients": [
-                "Mandarina 128 g, 2 piezas"
-              ]
+              "ingredients": ["Mandarina 128 g, 2 piezas"]
             },
             {
               "title": "Chilito Sirilo",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1067214_170.webp",
-              "ingredients": [
-                "Chilito Sirilo 10 g, 2 cucharaditas"
-              ]
+              "ingredients": ["Chilito Sirilo 10 g, 2 cucharaditas"]
             }
           ]
         },
@@ -1182,16 +1178,12 @@
             {
               "title": "Mandarina",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/532.png",
-              "ingredients": [
-                "Mandarina 128 g, 2 piezas"
-              ]
+              "ingredients": ["Mandarina 128 g, 2 piezas"]
             },
             {
               "title": "Chilito Sirilo",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1067214_170.webp",
-              "ingredients": [
-                "Chilito Sirilo 15 g, 3 cucharaditas"
-              ]
+              "ingredients": ["Chilito Sirilo 15 g, 3 cucharaditas"]
             }
           ]
         },
@@ -1446,9 +1438,7 @@
             {
               "title": "Pan Cero Bimbo",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/01a85576.jpg",
-              "ingredients": [
-                "Pan bimbo cero 50 g, 2 piezas"
-              ]
+              "ingredients": ["Pan bimbo cero 50 g, 2 piezas"]
             }
           ]
         },
@@ -1735,16 +1725,12 @@
             {
               "title": "Brownies fiber one",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1183097_293.webp",
-              "ingredients": [
-                "Brownie Fiber One 26 g, 1 pieza"
-              ]
+              "ingredients": ["Brownie Fiber One 26 g, 1 pieza"]
             },
             {
               "title": "Fruta de temporada",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752078_143.jpg",
-              "ingredients": [
-                "Fruta a escoger 106 g, 1 pieza"
-              ]
+              "ingredients": ["Fruta a escoger 106 g, 1 pieza"]
             }
           ]
         },
@@ -2517,9 +2503,7 @@
             {
               "title": "Arroz integral cocido",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/833098_309.jpg",
-              "ingredients": [
-                "Arroz integral 65 g, ⅓ taza"
-              ]
+              "ingredients": ["Arroz integral 65 g, ⅓ taza"]
             }
           ]
         },
@@ -2539,9 +2523,7 @@
             {
               "title": "Fruta de temporada",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752078_143.jpg",
-              "ingredients": [
-                "Fruta al gusto 106 g, 1 pieza"
-              ]
+              "ingredients": ["Fruta al gusto 106 g, 1 pieza"]
             }
           ]
         },
@@ -2791,9 +2773,7 @@
             {
               "title": "Frijoles refritos sin grasa",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/538.png",
-              "ingredients": [
-                "Frijoles refritos sin grasa 112.5 g, ½ taza"
-              ]
+              "ingredients": ["Frijoles refritos sin grasa 112.5 g, ½ taza"]
             }
           ]
         },
@@ -3360,23 +3340,17 @@
             {
               "title": "Arroz integral cocido",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/833098_309.jpg",
-              "ingredients": [
-                "Arroz integral 100 g, ½ taza"
-              ]
+              "ingredients": ["Arroz integral 100 g, ½ taza"]
             },
             {
               "title": "Frijoles refritos sin grasa",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/538.png",
-              "ingredients": [
-                "Frijoles refritos sin grasa 112.5 g, ½ taza"
-              ]
+              "ingredients": ["Frijoles refritos sin grasa 112.5 g, ½ taza"]
             },
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 46.5 g, ½ pieza"
-              ]
+              "ingredients": ["Aguacate 46.5 g, ½ pieza"]
             }
           ]
         },
@@ -3386,17 +3360,12 @@
             {
               "title": "Jícama con pepino",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/766.png",
-              "ingredients": [
-                "Pepino pelado 50 g, ½ taza",
-                "Jícama 40 g, ½ taza"
-              ]
+              "ingredients": ["Pepino pelado 50 g, ½ taza", "Jícama 40 g, ½ taza"]
             },
             {
               "title": "Chilito Sirilo",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1067214_170.webp",
-              "ingredients": [
-                "Chilito Sirilo 15 g, 3 cucharaditas"
-              ]
+              "ingredients": ["Chilito Sirilo 15 g, 3 cucharaditas"]
             }
           ]
         },
@@ -3637,9 +3606,7 @@
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 31 g, ⅓ pieza"
-              ]
+              "ingredients": ["Aguacate 31 g, ⅓ pieza"]
             }
           ]
         },
@@ -3918,37 +3885,27 @@
             {
               "title": "Pan integral",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/540.png",
-              "ingredients": [
-                "Pan integral 50 g, 2 piezas"
-              ]
+              "ingredients": ["Pan integral 50 g, 2 piezas"]
             },
             {
               "title": "Tomate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/708.png",
-              "ingredients": [
-                "Tomate 30 g, 3 rebanadas"
-              ]
+              "ingredients": ["Tomate 30 g, 3 rebanadas"]
             },
             {
               "title": "Lechuga",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/81.png",
-              "ingredients": [
-                "Lechuga 11.25 g, ¼ taza"
-              ]
+              "ingredients": ["Lechuga 11.25 g, ¼ taza"]
             },
             {
               "title": "Pepino con cáscara",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/646.png",
-              "ingredients": [
-                "Pepino 25 g, ¼ taza"
-              ]
+              "ingredients": ["Pepino 25 g, ¼ taza"]
             },
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 31 g, ⅓ pieza"
-              ]
+              "ingredients": ["Aguacate 31 g, ⅓ pieza"]
             }
           ]
         },
@@ -3966,9 +3923,7 @@
             {
               "title": "Gelatina D'Gari light sabor fresa",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/255219_374.jpg",
-              "ingredients": [
-                "Gelatina D'Gari ligth (VPolvo sabor fresa) 62.5 g, ¼ taza"
-              ]
+              "ingredients": ["Gelatina D'Gari ligth (VPolvo sabor fresa) 62.5 g, ¼ taza"]
             }
           ]
         },
@@ -4513,9 +4468,7 @@
             {
               "title": "Gelatina D'Gari light Sabor fresa",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/255219_374.jpg",
-              "ingredients": [
-                "Gelatina D'Gari ligth (Polvo sabor fresa) 62.5 g, ¼ taza"
-              ]
+              "ingredients": ["Gelatina D'Gari ligth (Polvo sabor fresa) 62.5 g, ¼ taza"]
             }
           ]
         },
@@ -4754,9 +4707,7 @@
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 31 g, ⅓ pieza"
-              ]
+              "ingredients": ["Aguacate 31 g, ⅓ pieza"]
             }
           ]
         },
@@ -4793,9 +4744,7 @@
             {
               "title": "Thins Bimbo",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/666868_880.jpg",
-              "ingredients": [
-                "Thins Bimbo 35 g, 1 pieza"
-              ]
+              "ingredients": ["Thins Bimbo 35 g, 1 pieza"]
             },
             {
               "title": "Tomate y espinacas",
@@ -5029,9 +4978,7 @@
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 31 g, ⅓ pieza"
-              ]
+              "ingredients": ["Aguacate 31 g, ⅓ pieza"]
             }
           ]
         },
@@ -5059,9 +5006,7 @@
             {
               "title": "Cacahuates",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/564.png",
-              "ingredients": [
-                "Cacahuates 12 g, 12 piezas"
-              ]
+              "ingredients": ["Cacahuates 12 g, 12 piezas"]
             }
           ]
         },
@@ -5307,9 +5252,7 @@
             {
               "title": "Tortilla de maíz",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/739.png",
-              "ingredients": [
-                "Tortilla 66 g, 3 piezas"
-              ]
+              "ingredients": ["Tortilla 66 g, 3 piezas"]
             }
           ]
         },
@@ -5581,16 +5524,12 @@
             {
               "title": "Uva verde",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/29.png",
-              "ingredients": [
-                "Uva verde 84 g, 14 piezas"
-              ]
+              "ingredients": ["Uva verde 84 g, 14 piezas"]
             },
             {
               "title": "Vitalinea estilo griego natural",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/85314646.jpg",
-              "ingredients": [
-                "Yogurth Vitalinea griego natural 125 g, 1 unidad"
-              ]
+              "ingredients": ["Yogurth Vitalinea griego natural 125 g, 1 unidad"]
             }
           ]
         },
@@ -5610,16 +5549,12 @@
             {
               "title": "Arroz integral cocido",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/833098_309.jpg",
-              "ingredients": [
-                "Arroz integral 100 g, ½ taza"
-              ]
+              "ingredients": ["Arroz integral 100 g, ½ taza"]
             },
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 46.5 g, ½ pieza"
-              ]
+              "ingredients": ["Aguacate 46.5 g, ½ pieza"]
             }
           ]
         },
@@ -5846,31 +5781,22 @@
             {
               "title": "Huevo con espinacas",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/221365_756.jpg",
-              "ingredients": [
-                "Huevo entero fresco 100 g, 2 piezas",
-                "Espinaca, cruda 60 g, 1 taza"
-              ]
+              "ingredients": ["Huevo entero fresco 100 g, 2 piezas", "Espinaca, cruda 60 g, 1 taza"]
             },
             {
               "title": "Salmas Sanissimo",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752061_446.jpg",
-              "ingredients": [
-                "Salmas 18 g, 3 piezas"
-              ]
+              "ingredients": ["Salmas 18 g, 3 piezas"]
             },
             {
               "title": "Frijoles refritos sin grasa",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/538.png",
-              "ingredients": [
-                "Frijoles refritos sin grasa 112.5 g, ½ taza"
-              ]
+              "ingredients": ["Frijoles refritos sin grasa 112.5 g, ½ taza"]
             },
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 31 g, ⅓ pieza"
-              ]
+              "ingredients": ["Aguacate 31 g, ⅓ pieza"]
             }
           ]
         },
@@ -5909,16 +5835,12 @@
             {
               "title": "Tortilla de maíz",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/739.png",
-              "ingredients": [
-                "Tortilla 66 g, 3 piezas"
-              ]
+              "ingredients": ["Tortilla 66 g, 3 piezas"]
             },
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 31 g, ⅓ pieza"
-              ]
+              "ingredients": ["Aguacate 31 g, ⅓ pieza"]
             }
           ]
         },
@@ -6217,16 +6139,12 @@
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 46.5 g, ½ pieza"
-              ]
+              "ingredients": ["Aguacate 46.5 g, ½ pieza"]
             },
             {
               "title": "Arroz integral cocido",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/833098_309.jpg",
-              "ingredients": [
-                "Arroz integral 100 g, ½ taza"
-              ]
+              "ingredients": ["Arroz integral 100 g, ½ taza"]
             }
           ]
         },
@@ -6506,9 +6424,7 @@
             {
               "title": "Tortilla de maíz",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/739.png",
-              "ingredients": [
-                "Tortilla 66 g, 3 piezas"
-              ]
+              "ingredients": ["Tortilla 66 g, 3 piezas"]
             }
           ]
         },
@@ -6743,16 +6659,12 @@
             {
               "title": "Miel maple sin azúcar D'Gari",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/666901_536.jpg",
-              "ingredients": [
-                "Miel maple sin azúcar (DGari) 15 g, 1 cucharada"
-              ]
+              "ingredients": ["Miel maple sin azúcar (DGari) 15 g, 1 cucharada"]
             },
             {
               "title": "Fruta de temporada",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752078_143.jpg",
-              "ingredients": [
-                "Fruta a escoger 212 g, 2 piezas"
-              ]
+              "ingredients": ["Fruta a escoger 212 g, 2 piezas"]
             }
           ]
         },
@@ -6770,9 +6682,7 @@
             {
               "title": "Granola",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/542.png",
-              "ingredients": [
-                "Granola 21 g, 3 cucharaditas"
-              ]
+              "ingredients": ["Granola 21 g, 3 cucharaditas"]
             }
           ]
         },
@@ -6791,23 +6701,17 @@
             {
               "title": "Frijoles refritos sin grasa",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/538.png",
-              "ingredients": [
-                "Frijoles refritos sin grasa 112.5 g, ½ taza"
-              ]
+              "ingredients": ["Frijoles refritos sin grasa 112.5 g, ½ taza"]
             },
             {
               "title": "Tortilla de maíz",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/739.png",
-              "ingredients": [
-                "Tortilla 66 g, 3 piezas"
-              ]
+              "ingredients": ["Tortilla 66 g, 3 piezas"]
             },
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 46.5 g, ½ pieza"
-              ]
+              "ingredients": ["Aguacate 46.5 g, ½ pieza"]
             }
           ]
         },
@@ -6828,9 +6732,7 @@
             {
               "title": "Aguacate",
               "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
-              "ingredients": [
-                "Aguacate 31 g, ⅓ pieza"
-              ]
+              "ingredients": ["Aguacate 31 g, ⅓ pieza"]
             }
           ]
         }

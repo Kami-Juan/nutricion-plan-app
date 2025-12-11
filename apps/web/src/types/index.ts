@@ -1,4 +1,4 @@
-import { NutritionalEquivalentKey } from '@/lib/constants';
+import type { NutritionalEquivalentKey } from "@/lib/constants";
 
 export type MenuPlanDayItem = {
   date: string;
@@ -19,15 +19,15 @@ export type Dish = {
 };
 
 export type EquivalentPeriod =
-  | 'Pre entreno'
-  | 'Desayuno 10:00'
-  | 'Desayuno 10:30'
-  | 'Medio día 12:00'
-  | 'Media tarde 17:00'
-  | 'Comida 15:00'
-  | 'Comida 13:00'
-  | 'Cena 20:00'
-  | 'Cena 21:00';
+  | "Pre entreno"
+  | "Desayuno 10:00"
+  | "Desayuno 10:30"
+  | "Medio día 12:00"
+  | "Media tarde 17:00"
+  | "Comida 15:00"
+  | "Comida 13:00"
+  | "Cena 20:00"
+  | "Cena 21:00";
 
 export type Equivalents = {
   [K in EquivalentPeriod]: EquivalentType[];

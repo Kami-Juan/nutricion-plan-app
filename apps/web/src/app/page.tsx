@@ -1,14 +1,10 @@
-import {
-  dehydrate,
-  HydrationBoundary,
-  QueryClient,
-} from '@tanstack/react-query';
+import { dehydrate, HydrationBoundary, QueryClient } from "@tanstack/react-query";
 
-import { getNutritionPlanData } from '@/api';
-import { Footer } from '@/components/common/Footer';
-import { Header } from '@/components/common/Header';
-import { MenuPlan } from '@/components/common/MenuPlan';
-import { TitlePage } from '@/components/common/TitlePage';
+import { getNutritionPlanData } from "@/api";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+import { MenuPlan } from "@/components/MenuPlan";
+import { TitlePage } from "@/components/TitlePage";
 
 export default async function Home() {
   const queryClient = new QueryClient();
