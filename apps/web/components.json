@@ -12,10 +12,10 @@
   },
   "aliases": {
     "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui",
+    "hooks": "@/hooks",
     "lib": "@/lib",
-    "hooks": "@/hooks"
+    "utils": "@k-health/ui/lib/utils",
+    "ui": "@k-health/ui/components"
   },
   "iconLibrary": "lucide"
 }

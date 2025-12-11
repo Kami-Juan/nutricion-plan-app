@@ -4,7 +4,7 @@ import Providers from './providers';
 
 import type { Metadata } from 'next';
 
-import './globals.css';
+import '@k-health/ui/globals.css';
 
 export const metadata: Metadata = {
   title: 'KamiHealth | Tu App de Nutrición',

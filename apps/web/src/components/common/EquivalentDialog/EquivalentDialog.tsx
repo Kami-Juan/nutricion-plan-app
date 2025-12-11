@@ -13,7 +13,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Skeleton } from '@/components/ui/skeleton';
+import { Skeleton } from '@k-health/ui';
 
 import { EquivalentIngredients } from './EquivalentIngredients';
 
