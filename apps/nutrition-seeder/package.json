@@ -1,0 +1,24 @@
+{
+  "name": "@k-health/nutrition-seeder",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "lint": "biome check",
+    "format": "biome format --write",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "catalog:",
+    "cheerio": "catalog:",
+    "lodash": "catalog:"
+  },
+  "devDependencies": {
+    "@types/cheerio": "catalog:",
+    "@types/lodash": "catalog:",
+    "@types/node": "catalog:",
+    "@k-health/typescript-configs": "workspace:*",
+    "ts-node": "catalog:",
+    "typescript": "catalog:"
+  }
+}
