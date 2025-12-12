@@ -4,9 +4,8 @@ import { Badge, Button, Card, Tabs, TabsContent, TabsList, TabsTrigger } from "@
 import { Calendar, ChevronRight, Clock } from "lucide-react";
 import { useState } from "react";
 import type { MenuPlanDayItem } from "@/types";
-
-import { EquivalentItems } from "../EquivalentItems/EquivalentItems";
-import { MenuPlanDay } from "../MenuPlanDay";
+import { MenuPlanDay } from "../../days/MenuPlanDay";
+import { EquivalentItems } from "../../equivalents/EquivalentItems/EquivalentItems";
 
 type MenuPlanProps = {
   menus: Record<string, Array<MenuPlanDayItem>>;

@@ -3,7 +3,7 @@ import { Beef } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
 import type { Dish, EquivalentPeriod, MenuPlanDayItem } from "@/types";
 
-import { MenuDishCard } from "../MenuDishCard";
+import { MenuDishCard } from "../../menus/MenuDishCard";
 
 type MenuPlanDayProps = {
   data: MenuPlanDayItem;
