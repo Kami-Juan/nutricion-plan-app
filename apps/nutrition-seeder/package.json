@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "start": "tsx src/main.ts",
     "lint": "biome check",
     "format": "biome format --write",
     "check-types": "tsc --noEmit"
@@ -14,11 +15,11 @@
     "lodash": "catalog:"
   },
   "devDependencies": {
+    "@k-health/typescript-configs": "workspace:*",
     "@types/cheerio": "catalog:",
     "@types/lodash": "catalog:",
     "@types/node": "catalog:",
-    "@k-health/typescript-configs": "workspace:*",
-    "ts-node": "catalog:",
+    "tsx": "^4.21.0",
     "typescript": "catalog:"
   }
 }

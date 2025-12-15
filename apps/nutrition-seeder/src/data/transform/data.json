@@ -1,0 +1,7032 @@
+{
+  "10": [
+    {
+      "date": "10-07-2024",
+      "periods": [
+        {
+          "period": "Pre entreno",
+          "dishes": [
+            {
+              "title": "Iced coffee",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1191210_004.webp",
+              "ingredients": [
+                "Leche descremada 122.5 ml, ½ taza",
+                "Café preparado con agua 125 ml, ½ taza",
+                "Hielo 100 g, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Huevos divorciados",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/777585_145.jpg",
+              "ingredients": [
+                "Huevo entero fresco 100 g, 2 piezas",
+                "Tortilla de maíz 60 g, 2 piezas",
+                "Jitomate bola 100 g",
+                "Cebolla blanca 32 g",
+                "Chile serrano 12 g",
+                "Ajo 1 g, ¼ cucharadita",
+                "Tomatillo 136 g, 2 piezas",
+                "Cebolla blanca 32 g",
+                "Chile serrano 6 g",
+                "Cilantro 12 g, ⅕ taza",
+                "Ajo 1 g, ¼ cucharadita"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Pasta al chipotle alta en proteína",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1182706_428.webp",
+              "ingredients": [
+                "Pasta integral cocida 112 g",
+                "Carne molida de res 90 g",
+                "Yogurt griego, alto en proteina 120 ml, ½ taza",
+                "Crema agria, light 39 ml, 3 cucharadas",
+                "Chile chipotle adobado en lata 57 ml",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Naranja en gajos con chile",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/639838_725.jpg",
+              "ingredients": [
+                "Naranja 76 g, 1 pieza",
+                "Jícama 100 g, 1 taza",
+                "Mandarina 64 g, 1 pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Sincronizada",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/728565_673.jpg",
+              "ingredients": [
+                "Tortilla de harina integral 64 g, 2 piezas",
+                "Queso Panela Lala light 60 g, 2 rebanadas",
+                "Jamón de pavo 42 g, 2 rebanadas",
+                "Lechuga 67.5 g, 1 ½ tazas",
+                "Jitomate bola 113 g"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Pre entreno": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "led"
+            },
+            "period": "Pre entreno"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Pre entreno"
+          }
+        ],
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 4,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oamg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "led"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "ve"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetug"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 8
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 4
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 2
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 5
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 2
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0.5
+        },
+        {
+          "type": "Grasa",
+          "portion": 3
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "10-08-2024",
+      "periods": [
+        {
+          "period": "Pre entreno",
+          "dishes": [
+            {
+              "title": "Iced coffee",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1191210_004.webp",
+              "ingredients": [
+                "Leche descremada 122.5 ml, ½ taza",
+                "Café preparado con agua 125 ml, ½ taza",
+                "Hielo 100 g, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Hot Cakes de Carlos V",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/476883_551.jpg",
+              "ingredients": [
+                "Avena cruda en hojuelas 20 g, ½ taza",
+                "Polvo para hornear 5 g, 1 cucharadita",
+                "Leche descremada 100 ml, ½ taza",
+                "Huevo entero fresco 50 g, 1 pieza",
+                "Cacao en polvo 5 g, 1 cucharada",
+                "Miel de maple sin azúcar 15 g, 1 cucharada",
+                "Chocolate Turín sin azúcar 18 g, 1 pieza",
+                "Plátano 60 g, ½ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Caldo tlalpeño",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/638206_672.jpg",
+              "ingredients": [
+                "Agua 150 ml",
+                "Pollo, pechuga asada 120 g",
+                "Ejotes cocidos 32 g, ⅓ taza",
+                "Aguacate 31 g, ⅓ pieza",
+                "Garbanzos cocidos 45 g, ¼ taza",
+                "Zanahoria 20 g, ¼ taza",
+                "Zumo de limón 10 ml",
+                "Chile chipotle adobado en lata 10 ml"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Smoothie de toronja y jengibre",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1191198_694.webp",
+              "ingredients": [
+                "Zumo de toronja rosa 160 ml, ⅔ taza",
+                "Stevia (endulzante ) 1 g, 1 pieza",
+                "Hielo 100 g, ½ taza",
+                "Jengibre 12 g, 2 cucharadas",
+                "Agua 100 ml"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Sandwich de Guacamole con queso panela",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/829766_190.jpg",
+              "ingredients": [
+                "Pan integral 70 g, 2 piezas",
+                "Queso Panela Lala light 60 g, 2 rebanadas",
+                "Aguacate 93 g, 1 pieza",
+                "Jitomate bola 25 g",
+                "Cebolla blanca 25 g",
+                "Chile serrano 10 g"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Pre entreno": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "led"
+            },
+            "period": "Pre entreno"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Pre entreno"
+          }
+        ],
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "led"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "gp"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 4,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "leg"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "g"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 2
+        },
+        {
+          "type": "Verdura",
+          "portion": 1.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 3
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0.5
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 1
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 1
+        },
+        {
+          "type": "Grasa",
+          "portion": 4
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 1
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "10-09-2024",
+      "periods": [
+        {
+          "period": "Pre entreno",
+          "dishes": [
+            {
+              "title": "Iced coffee",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1191210_004.webp",
+              "ingredients": [
+                "Leche descremada 122.5 ml, ½ taza",
+                "Café preparado con agua 125 ml, ½ taza",
+                "Hielo 100 g, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Tortilla fit",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/539861_712.jpg",
+              "ingredients": [
+                "Huevo entero fresco 100 g, 2 piezas",
+                "Queso Panela Lala light 30 g, 1 rebanada",
+                "Pimiento rojo o verde 86 g, 1 taza",
+                "Cebolla morada 100 g",
+                "Mostaza 100 g, ½ taza",
+                "Aguacate 93 g, 1 pieza",
+                "Arugula 20 g, 1 taza",
+                "Tomate Cherry 30 g"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Tacos Sencillos de Pescado",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/826451_215.jpg",
+              "ingredients": [
+                "Filete de pescado 90 g",
+                "Limón real 30 g",
+                "Tortilla de maíz 90 g, 3 piezas",
+                "Repollo, crudo 20 g",
+                "Tomate, rojo 204 g, 2 piezas",
+                "Crema agria, light 13 ml, 1 cucharada",
+                "Salsa verde (Herdez) 45 g, 3 cucharadas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Mandarina",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/532.png",
+              "ingredients": [
+                "Mandarina 128 g, 2 piezas"
+              ]
+            },
+            {
+              "title": "Chilito Sirilo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1067214_170.webp",
+              "ingredients": [
+                "Chilito Sirilo 10 g, 2 cucharaditas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Taquitos de carne asada",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/881313_156.jpg",
+              "ingredients": [
+                "Tortilla de maíz 60 g, 2 piezas",
+                "Cilantro 10 g, ⅕ taza",
+                "Zumo de limón 5 ml",
+                "Pepino, pelado 100 g, ⅔ taza",
+                "Salsa verde (Herdez) 30 g, 2 cucharadas",
+                "Filete de carne de res 120 g",
+                "Cebolla blanca 100 g"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Pre entreno": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "led"
+            },
+            "period": "Pre entreno"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Pre entreno"
+          }
+        ],
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 4,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 4,
+              "gs": "oambg"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 9
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 5
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 6.5
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0.5
+        },
+        {
+          "type": "Grasa",
+          "portion": 4
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "10-10-2024",
+      "periods": [
+        {
+          "period": "Pre entreno",
+          "dishes": [
+            {
+              "title": "Iced coffee",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1191210_004.webp",
+              "ingredients": [
+                "Leche descremada 122.5 ml, ½ taza",
+                "Café preparado con agua 125 ml, ½ taza",
+                "Hielo 100 g, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Avena cocida con fruta y coco rallado",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/648106_899.jpg",
+              "ingredients": [
+                "Avena cocida 164 g, 1 taza",
+                "Frutos rojos 155 g, 1 taza",
+                "Kiwi 76 g, 1 pieza",
+                "Coco rallado 9 g, 1 cucharada",
+                "Semillas de chia 10 g, 2 cucharaditas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Hamburguesa de pollo con ensalada",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/740175_349.jpg",
+              "ingredients": [
+                "Pan para hamburguesa chico 60 g, 1 pieza",
+                "Molida de pollo 60 g",
+                "Mayonesa light 6 g, 1 cucharadita",
+                "Lechuga 14 g, ⅓ taza",
+                "Jitomate bola 11 g",
+                "Cebolla morada 5 g",
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Choco obleas Turin",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/524968_747.jpg",
+              "ingredients": [
+                "Amaranto (tostado) 8 g",
+                "Cacao en polvo 2 g, ½ cucharada",
+                "Chocolate amargo 7 g"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Enfrijoladas",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/84415465.jpg",
+              "ingredients": [
+                "Tortilla de maíz 90 g, 3 piezas",
+                "Frijoles cocidos, sin grasa 172 g, 1 taza",
+                "Pollo, pechuga asada 90 g",
+                "Crema agria, light 13 ml, 1 cucharada",
+                "Queso Oaxaca Lala Light 60 g, 2 rebanadas"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Pre entreno": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "led"
+            },
+            "period": "Pre entreno"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Pre entreno"
+          }
+        ],
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "fr"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "gp"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "cetug"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "leg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1.5
+        },
+        {
+          "type": "Verdura",
+          "portion": 0
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 6
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0.5
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 2
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 5
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 1
+        },
+        {
+          "type": "Grasa",
+          "portion": 4
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0.5
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "10-11-2024",
+      "periods": [
+        {
+          "period": "Pre entreno",
+          "dishes": [
+            {
+              "title": "Iced coffee",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1191210_004.webp",
+              "ingredients": [
+                "Leche descremada 122.5 ml, ½ taza",
+                "Café preparado con agua 125 ml, ½ taza",
+                "Hielo 100 g, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Sandwich de huevo y jamón",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/85316002.jpg",
+              "ingredients": [
+                "Thins Bimbo 35 g, 1 pieza",
+                "Huevo entero cocido 44 g, 1 pieza",
+                "Jamón de pavo 21 g, 1 rebanada",
+                "Queso Panela Lala light 30 g, 1 rebanada",
+                "Espinaca, cruda 30 g, ½ taza",
+                "Tomate rojo 20 g, 2 rebanadas",
+                "Aguacate 46.5 g, ½ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Chilaquiles con pollo y queso",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/275077_838.jpg",
+              "ingredients": [
+                "Pollo, pechuga asada 90 g",
+                "Totopos horneados, sin sal 48 g, 48 unidades",
+                "Salsa roja o verde al gusto 60 g, 4 cucharadas",
+                "Crema agria reducida en grasa 14 ml, 1 cucharada",
+                "Frijol promedio cocido 90 g, ½ taza",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada",
+                "Aguacate 46.5 g, ½ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Mandarina",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/532.png",
+              "ingredients": [
+                "Mandarina 128 g, 2 piezas"
+              ]
+            },
+            {
+              "title": "Chilito Sirilo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1067214_170.webp",
+              "ingredients": [
+                "Chilito Sirilo 15 g, 3 cucharaditas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Pizza fit",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/e8964225.jpg",
+              "ingredients": [
+                "Pan pita integral 60 g, 1 pieza",
+                "Jamón, extra magro 40 g, 2 rebanadas",
+                "Queso Panela Lala Light 30 g, 1 rebanada",
+                "Salsa de tomate, sin sal 30 g, 0.1 taza",
+                "Espinaca, cruda 12 g, ⅕ taza",
+                "Champiñón fresco 18 g, ⅕ taza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Pre entreno": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "led"
+            },
+            "period": "Pre entreno"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Pre entreno"
+          }
+        ],
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "oabg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 4,
+              "gs": "az"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oambg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 1
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 6
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 1
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 3.5
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 4.5
+        },
+        {
+          "type": "Grasa",
+          "portion": 4
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    }
+  ],
+  "09": [
+    {
+      "date": "09-02-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Omelette a la mexicana",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661845_286.jpg",
+              "ingredients": [
+                "Huevo entero fresco 100 g, 2 piezas",
+                "Clara de huevo 66 g, 2 piezas",
+                "Aguacate 31 g, ⅓ pieza",
+                "Tomate Cherry 20 g",
+                "Cebolla picada 10 g, 2 cucharadas",
+                "Cilantro 10 g, ⅕ taza",
+                "Chile serrano 5 g"
+              ]
+            },
+            {
+              "title": "Pan Cero Bimbo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/01a85576.jpg",
+              "ingredients": [
+                "Pan bimbo cero 50 g, 2 piezas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Salpicón fit",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/d14c2910.jpg",
+              "ingredients": [
+                "Carne de res 120 g",
+                "Aguacate 30 g, ⅓ pieza",
+                "Tomate rojo 30 g, 3 rebanadas",
+                "Sanissimo (Tostada horneada) 36 g, 3 piezas",
+                "Lechuga 22.5 g, ½ taza",
+                "Chile serrano 10 g",
+                "Jugo de limón natural 10 ml, 0.1 taza",
+                "Cebolla picada 10 g, 2 cucharadas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Rice cake de crema de cacahuate y pláta",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/275081_395.jpg",
+              "ingredients": [
+                "Plátano 30 g, ¼ pieza",
+                "Rice cake ( galletas de arroz ) 18 g, 2 piezas",
+                "Crema de cacahuate 10 ml, 2 cucharadas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Mollete con pan bimbo cero",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661347_206.jpg",
+              "ingredients": [
+                "Pan integral 70 g, 2 piezas",
+                "Queso Oaxaca Lala Light 60 g, 2 rebanadas",
+                "Frijoles cocidos, sin grasa 86 g, ½ taza",
+                "Tomate rojo 50 g, 5 rebanadas",
+                "Cebolla picada 20 g, 4 cucharadas",
+                "Chile serrano 10 g",
+                "Cilantro 10 g, ⅕ taza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 4,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "gp"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 0.5
+        },
+        {
+          "type": "Verdura",
+          "portion": 1.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 6.5
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 1
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 5
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 2
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 1
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "09-03-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Smothie Bowl chocoplatano",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661180_233.jpg",
+              "ingredients": [
+                "Yogurt griego, alto en proteina 120 ml, ½ taza",
+                "Plátano 60 g, ½ pieza",
+                "Crema de cacahuate 5 ml, 1 cucharada",
+                "Cacao en polvo 10 g, 2 cucharadas",
+                "Semillas de chia 15 g, 3 cucharaditas",
+                "Granola baja en grasa 9 g, ¼ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Sopa de nopal y chile guajillo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/722494_098.jpg",
+              "ingredients": [
+                "Pollo, pechuga asada 100 g",
+                "Nopales cocidos 149 g, 1 taza",
+                "Queso Panela Lala light 30 g, 1 rebanada",
+                "Jitomate procesado en puré 120 g, ½ taza",
+                "Cebolla picada 20 g, 4 cucharadas",
+                "Caldo de pollo, enlatado, condensado 100 g",
+                "Aguacate 27.9 g, ⅓ pieza",
+                "Sanissimo (Tostada horneada) 24 g, 2 piezas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Brownies fiber one",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1183097_293.webp",
+              "ingredients": [
+                "Brownie Fiber One 26 g, 1 pieza"
+              ]
+            },
+            {
+              "title": "Fruta de temporada",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752078_143.jpg",
+              "ingredients": [
+                "Fruta a escoger 106 g, 1 pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Tacos de arrachera",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661690_329.jpg",
+              "ingredients": [
+                "Arrachera de res asada 60 g, 2 piezas",
+                "Tortilla de maíz 60 g, 2 piezas",
+                "Cebolla picada 20 g, 4 cucharadas"
+              ]
+            },
+            {
+              "title": "Guacamole",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/721.png",
+              "ingredients": [
+                "Aguacate 34 g, ⅓ pieza",
+                "Tomate 10 g, 1 rebanada",
+                "Cebolla 10 g, 2 cucharadas"
+              ]
+            },
+            {
+              "title": "Pico de gallo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/417282_091.jpg",
+              "ingredients": [
+                "Tomate rojo 30 g, 3 rebanadas",
+                "Cebolla picada 20 g, 4 cucharadas",
+                "Chile serrano 10 g",
+                "Cilantro 10 g, ⅕ taza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "led"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "gp"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "az"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 3.5,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 4.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetug"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 2
+        },
+        {
+          "type": "Verdura",
+          "portion": 7
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 3.5
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 1
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 3.5
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 3.5
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 1.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 1
+        },
+        {
+          "type": "Grasa",
+          "portion": 2
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 1.5
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "09-04-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Omelette a la mexicana",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661845_286.jpg",
+              "ingredients": [
+                "Huevo entero fresco 50 g, 1 pieza",
+                "Clara de huevo 66 g, 2 piezas",
+                "Aguacate 31 g, ⅓ pieza",
+                "Tomate Cherry 20 g",
+                "Cebolla picada 10 g, 2 cucharadas",
+                "Cilantro 10 g, ⅕ taza",
+                "Chile serrano 5 g"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Salpicón fit",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/d14c2910.jpg",
+              "ingredients": [
+                "Carne de res magra 100 g",
+                "Aguacate 30 g, ⅓ pieza",
+                "Tomate rojo 30 g, 3 rebanadas",
+                "Sanissimo (Tostada horneada) 24 g, 2 piezas",
+                "Lechuga 22.5 g, ½ taza",
+                "Chile serrano 10 g",
+                "Jugo de limón natural 10 ml, 0.1 taza",
+                "Cebolla picada 10 g, 2 cucharadas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Rice cake de crema de cacahuate y pláta",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/275081_395.jpg",
+              "ingredients": [
+                "Plátano 30 g, ¼ pieza",
+                "Rice cake ( galletas de arroz ) 18 g, 2 piezas",
+                "Crema de cacahuate 10 ml, 2 cucharadas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Mollete con pan bimbo cero",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661347_206.jpg",
+              "ingredients": [
+                "Pan integral 70 g, 2 piezas",
+                "Queso Oaxaca Lala Light 60 g, 2 rebanadas",
+                "Frijoles cocidos, sin grasa 86 g, ½ taza",
+                "Tomate rojo 50 g, 5 rebanadas",
+                "Cebolla picada 20 g, 4 cucharadas",
+                "Chile serrano 10 g",
+                "Cilantro 10 g, ⅕ taza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "gp"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 0.5
+        },
+        {
+          "type": "Verdura",
+          "portion": 1.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 4
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 1
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 5
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 2
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 1
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "09-05-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Overnight de chocolate y avena",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1117866_055.webp",
+              "ingredients": [
+                "Harina de avena 100 g, 10 cucharadas",
+                "Semillas de chia 5 g, 1 cucharadita",
+                "Cacao en polvo 5 g, 1 cucharada",
+                "Stevia (endulzante ) 1 g, 1 pieza",
+                "Leche descremada 61 ml, ⅕ taza",
+                "Yogurt griego, alto en proteina 60 ml, ¼ taza",
+                "Nibs de cacao 24 g, 2 cucharadas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Burrito fit",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/818885_274.jpg",
+              "ingredients": [
+                "Pan pita o árabe integral 50 g",
+                "Bistec de res 90 g",
+                "Lechuga, cos o romana 45 g, 1 taza",
+                "Cilantro 30 g, ½ taza",
+                "Pepino, pelado 40 g, ⅕ taza",
+                "Tomate rojo 50 g, 5 rebanadas",
+                "Frijoles cocidos, sin grasa 43 g, ¼ taza",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Carlota de Mango",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/509092_130.jpg",
+              "ingredients": [
+                "Galleta maría 20 g, 5 piezas",
+                "Mango ataulfo 90 g, ½ pieza",
+                "Yogurt griego, alto en proteina 120 ml, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Ceviche de atún",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/551487_503.jpg",
+              "ingredients": [
+                "Pepino, pelado 180 g, 1 taza",
+                "Zumo de limón 50 ml, ⅕ taza",
+                "Salsa de soja y trigo, baja en sodio 20 g, 4 cucharaditas",
+                "Cebolla morada 50 g",
+                "Chile serrano 50 g",
+                "Atún fresco 90 g, 3 unidades medianas",
+                "Mango ataulfo 45 g, ¼ pieza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 5,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "gp"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "led"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "oamg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "leg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "led"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 2
+        },
+        {
+          "type": "Verdura",
+          "portion": 4.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 6
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0.5
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 3
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 2.5
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 2.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0.5
+        },
+        {
+          "type": "Grasa",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 2.5
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "09-06-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Enfrijoladas",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/84415465.jpg",
+              "ingredients": [
+                "Tortilla de maíz 90 g, 3 piezas",
+                "Frijoles cocidos, sin grasa 86 g, ½ taza",
+                "Pollo, pechuga asada 90 g",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada",
+                "Crema agria, light 13 ml, 1 cucharada",
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Huarache de nopal con pollo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/b3a38211.jpg",
+              "ingredients": [
+                "Nopales cocido 149 g, 1 taza",
+                "Pollo, pechuga asada 90 g",
+                "Frijoles cocidos, sin grasa 60 g, ⅓ taza",
+                "Aguacate 30 g, ⅓ pieza",
+                "Tomate rojo 20 g, 2 rebanadas",
+                "Lechuga 14 g, ⅓ taza"
+              ]
+            },
+            {
+              "title": "Arroz integral cocido",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/833098_309.jpg",
+              "ingredients": [
+                "Arroz integral 65 g, ⅓ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Frappe de café",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/323859_070.jpg",
+              "ingredients": [
+                "Café preparado con agua 150 ml, ⅔ taza",
+                "Stevia 1 g, 1 paquete pequeño",
+                "Leche descremada 98 ml, ½ taza",
+                "Cacao en polvo (opcional) 5 g, 1 cucharada"
+              ]
+            },
+            {
+              "title": "Fruta de temporada",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752078_143.jpg",
+              "ingredients": [
+                "Fruta al gusto 106 g, 1 pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Taco de bistec",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/181153_210.jpg",
+              "ingredients": [
+                "Tortilla de maíz 90 g, 3 piezas",
+                "Bistec de res sin grasa 90 g, 3 unidades"
+              ]
+            },
+            {
+              "title": "Guacamole",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/721.png",
+              "ingredients": [
+                "Aguacate 34 g, ⅓ pieza",
+                "Tomate 10 g, 1 rebanada",
+                "Cebolla 10 g, 2 cucharadas"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "leg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "az"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "led"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 2
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 7
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 1.5
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 9
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 1
+        },
+        {
+          "type": "Grasa",
+          "portion": 4
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    }
+  ],
+  "08": [
+    {
+      "date": "08-12-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Huevos motuleños",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/747285_807.jpg",
+              "ingredients": [
+                "Huevo entero fresco 100 g, 2 piezas",
+                "Jitomate guaje o guajito 100 g",
+                "Cebolla blanca 53 g",
+                "Chile jalapeño 38 g",
+                "Cilantro 12 g, ⅕ taza",
+                "Tortilla de maíz 60 g, 2 piezas"
+              ]
+            },
+            {
+              "title": "Frijoles refritos sin grasa",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/538.png",
+              "ingredients": [
+                "Frijoles refritos sin grasa 112.5 g, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Poke bowl de quinoa y atún",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1169435_653.webp",
+              "ingredients": [
+                "Medallón de atún 100 g",
+                "Quinoa cocida 70 g",
+                "Zanahoria 30 g, ½ taza",
+                "Ajonjolí 5 g, 2 cucharaditas0.1 taza",
+                "Aguacate 47 g, ½ pieza",
+                "Pepino, con cáscara 26 g, ¼ taza",
+                "Salsa de soja y trigo, baja en sodio 25 g, 5 cucharaditas",
+                "Zumo de limón 50 ml, ⅕ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Yogurt con fresa arandanos y avena",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/281259_037.jpg",
+              "ingredients": [
+                "Avena cruda en hojuelas 20 g, ½ taza",
+                "Arándano 37.5 g, ¼ taza",
+                "Fresas 36 g, 3 piezas",
+                "Yogurt griego, alto en proteina 240 ml, 1 taza",
+                "Crema de almendras 5 ml, 1 cucharada"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Sándwich tostado",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661152_439.jpg",
+              "ingredients": [
+                "Pan integral 70 g, 2 piezas",
+                "Aguacate 30 g, ⅓ pieza",
+                "Espinaca, cruda 30 g, ½ taza",
+                "Jamón de pavo 42 g, 2 rebanadas",
+                "Queso Panela Lala Light 30 g, 1 rebanada",
+                "Mayonesa chipotle light 6 g, 1 cucharadita"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "leg"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 4.5,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "gp"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "led"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "gp"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "g"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 6
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 1.5
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 6.5
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 3
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 3.5
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 1
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "08-13-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Avena con manzana canela",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/01a80750.jpg",
+              "ingredients": [
+                "Manzana con piel 106 g, 1 pieza",
+                "Leche de almendras 120 ml, ½ taza",
+                "Avena cruda en hojuelas 20 g, ½ taza",
+                "Vainilla  ( extracto ) 5 g, 1 cucharadita",
+                "Canela en polvo 5 g, 1 cucharadita",
+                "Stevia (endulzante ) 1 g, 1 pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Wrap de pollo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1169445_294.webp",
+              "ingredients": [
+                "Tortilla de harina integral 64 g, 2 piezas",
+                "Pollo, pechuga asada 90 g",
+                "Aguacate 31 g, ⅓ pieza",
+                "Lechuga 90 g, 2 tazas",
+                "Pimiento rojo o verde 45 g, ½ taza",
+                "Zumo de limón 54 ml, ⅕ taza",
+                "Yogurt griego, alto en proteina 80 ml, ⅓ taza",
+                "Tomate rojo 50 g, 5 rebanadas",
+                "Calabacita italiana 55 g, ½ pieza",
+                "Pepino, con cáscara 26 g, ¼ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Carlota de Mango",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/509092_130.jpg",
+              "ingredients": [
+                "Galleta maría 20 g, 5 piezas",
+                "Mango ataulfo 90 g, ½ pieza",
+                "Yogurt griego, alto en proteina 120 ml, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Quesadillas de champiñón con panela",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/824555_852.jpg",
+              "ingredients": [
+                "Tortilla de maíz 60 g, 2 piezas",
+                "Queso Panela Lala Light 100 g, 3 ⅓ rebanadas",
+                "Champiñón fresco 90 g, 1 taza",
+                "Tomate rojo 40 g, 4 rebanadas",
+                "Chile jalapeño 5 g",
+                "Aguacate 46.5 g, ½ pieza",
+                "Salsa verde (Herdez) 30 g, 2 cucharadas"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "gp"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetug"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "led"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "led"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 3.5,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 2.5
+        },
+        {
+          "type": "Verdura",
+          "portion": 4
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 4
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 2
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 3
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 3.5
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 2.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 2.5
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0.5
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "08-14-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Mollete con pico de gallo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661347_206.jpg",
+              "ingredients": [
+                "Bolillo integral 30 g, ½ pieza",
+                "Frijoles cocidos, sin grasa 86 g, ½ taza",
+                "Queso Oaxaca Lala Light 60 g, 2 rebanadas",
+                "Tomate rojo 50 g, 5 rebanadas",
+                "Cebolla picada 20 g, 4 cucharadas",
+                "Chile serrano 10 g",
+                "Cilantro 10 g, ⅕ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Calabacita rellena de carne molida",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/bb760964.jpg",
+              "ingredients": [
+                "Molida de res 90 g, 3 unidades",
+                "Calabaza cruda 60 g, 1 pieza",
+                "Queso Oaxaca light 60 g, 2 rebanadas"
+              ]
+            },
+            {
+              "title": "Arroz integral cocido",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/833098_309.jpg",
+              "ingredients": [
+                "Arroz integral 100 g, ½ taza"
+              ]
+            },
+            {
+              "title": "Frijoles refritos sin grasa",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/538.png",
+              "ingredients": [
+                "Frijoles refritos sin grasa 112.5 g, ½ taza"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 46.5 g, ½ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Jícama con pepino",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/766.png",
+              "ingredients": [
+                "Pepino pelado 50 g, ½ taza",
+                "Jícama 40 g, ½ taza"
+              ]
+            },
+            {
+              "title": "Chilito Sirilo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1067214_170.webp",
+              "ingredients": [
+                "Chilito Sirilo 15 g, 3 cucharaditas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Tacos de carnitas de atún",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1066658_873.webp",
+              "ingredients": [
+                "Atún en agua, drenado 90 ml, 1 lata",
+                "Cebolla blanca 13 g",
+                "Cilantro 30 g, ½ taza",
+                "Aguacate 31 g, ⅓ pieza",
+                "Tortilla de maíz 90 g, 3 piezas"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 5,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "leg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 0
+        },
+        {
+          "type": "Verdura",
+          "portion": 3.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 6
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 2.5
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 3
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 7
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 2.5
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "08-15-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Chilaquiles en salsa de frijoles",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/794427_219.jpg",
+              "ingredients": [
+                "Totopos horneados, sin sal 48 g, 48 unidades",
+                "Frijoles cocidos, sin grasa 172 g, 1 taza",
+                "Aguacate 31 g, ⅓ pieza",
+                "Pollo, pechuga asada 90 g",
+                "Cebolla morada 30 g",
+                "Rabano chico 15 g"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Enchiladas tabom",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/281270_236.jpg",
+              "ingredients": [
+                "Crema agria reducida en grasa 7 ml, ½ cucharada",
+                "Cebolla blanca 13 g",
+                "Chile guajillo 10 g, 1 unidad",
+                "Chile serrano 10 g",
+                "Ajo 1 g, ¼ cucharadita",
+                "Cilantro 1 g",
+                "Pollo, pechuga asada 90 g",
+                "Tortilla de maíz 90 g, 3 piezas",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Rice cake de crema de cacahuate y pláta",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/275081_395.jpg",
+              "ingredients": [
+                "Plátano 30 g, ¼ pieza",
+                "Rice cake ( galletas de arroz ) 18 g, 2 piezas",
+                "Crema de cacahuate 10 ml, 2 cucharadas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Tacos de bistec",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/735.png",
+              "ingredients": [
+                "Bistec de res 90 g",
+                "Tortilla de maíz 90 g, 3 piezas",
+                "Cebolla 5 g, 1 cucharada",
+                "Cilantro 5 g, 1 cucharada"
+              ]
+            },
+            {
+              "title": "Guacamole",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/721.png",
+              "ingredients": [
+                "Aguacate 34 g, ⅓ pieza",
+                "Tomate 10 g, 1 rebanada",
+                "Cebolla 10 g, 2 cucharadas"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "leg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "gp"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 0.5
+        },
+        {
+          "type": "Verdura",
+          "portion": 2.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 9
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 2
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 6
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 3.5
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 1
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "08-16-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Enfrijoladas",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/84415465.jpg",
+              "ingredients": [
+                "Tortilla de maíz 90 g, 3 piezas",
+                "Frijoles cocidos, sin grasa 86 g, ½ taza",
+                "Pollo, pechuga asada 90 g",
+                "Aguacate 31 g, ⅓ pieza",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada",
+                "Chile chipotle adobado en lata 15 ml"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Hamburguesa de Soya hamburguesa Sorriso de Tabom",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/307039_395.jpg",
+              "ingredients": [
+                "Soya cocida 57 g",
+                "Zanahoria 40 g, ½ taza",
+                "Harina de avena 10 g, 1 cucharada",
+                "Aceite de oliva 5 ml, 1 cucharadita"
+              ]
+            },
+            {
+              "title": "Pan integral",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/540.png",
+              "ingredients": [
+                "Pan integral 50 g, 2 piezas"
+              ]
+            },
+            {
+              "title": "Tomate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/708.png",
+              "ingredients": [
+                "Tomate 30 g, 3 rebanadas"
+              ]
+            },
+            {
+              "title": "Lechuga",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/81.png",
+              "ingredients": [
+                "Lechuga 11.25 g, ¼ taza"
+              ]
+            },
+            {
+              "title": "Pepino con cáscara",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/646.png",
+              "ingredients": [
+                "Pepino 25 g, ¼ taza"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Uvas pica fresa",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1058215_902.webp",
+              "ingredients": [
+                "Uva roja o verde 84 g, 14 piezas",
+                "Chilito Sirilo 50 g, 10 cucharaditas"
+              ]
+            },
+            {
+              "title": "Gelatina D'Gari light sabor fresa",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/255219_374.jpg",
+              "ingredients": [
+                "Gelatina D'Gari ligth (VPolvo sabor fresa) 62.5 g, ¼ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Pizza fit",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/e8964225.jpg",
+              "ingredients": [
+                "Pan pita integral 60 g, 1 pieza",
+                "Jamón, extra magro 40 g, 2 rebanadas",
+                "Queso Panela Lala Light 30 g, 1 rebanada",
+                "Salsa de tomate, sin sal 30 g, 0.1 taza",
+                "Espinaca, cruda 12 g, ⅕ taza",
+                "Champiñón fresco 18 g, ⅕ taza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oambg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 2.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 8.5
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 2
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0.5
+        },
+        {
+          "type": "Grasa",
+          "portion": 3
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    }
+  ],
+  "07": [
+    {
+      "date": "07-15-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Enfrijoladas de huevo a la mexicana",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/795465_364.jpg",
+              "ingredients": [
+                "Tortilla de maíz 60 g, 2 piezas",
+                "Huevo entero fresco 100 g, 2 piezas",
+                "Jitomate guaje o saladet 65 g, 1 pieza",
+                "Cebolla picada 10 g, 2 cucharadas",
+                "Cilantro 1 g",
+                "Frijoles cocidos, sin grasa 86 g, ½ taza",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Tostadas de pollo en salsa verde frijol",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1117841_125.webp",
+              "ingredients": [
+                "Tomate verde 80 g, 5 piezas",
+                "Cebolla blanca 27 g",
+                "Chile serrano 15 g",
+                "Cilantro 30 g, ½ taza",
+                "Agua 100 ml",
+                "Pimienta negra (especia) 5 g, 1 cucharadita",
+                "Sanissimo (Tostada horneada) 48 g, 4 piezas",
+                "Frijoles cocidos, sin grasa 86 g, ½ taza",
+                "Aguacate 31 g, ⅓ pieza",
+                "Queso panela lala light 40 g, 1 rebanada",
+                "Pollo, pechuga asada 90 g"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Rice cake de crema de cacahuate y pláta",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/275081_395.jpg",
+              "ingredients": [
+                "Plátano 30 g, ¼ pieza",
+                "Rice cake ( galletas de arroz ) 18 g, 2 piezas",
+                "Crema de cacahuate 10 ml, 2 cucharadas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Pizza fit",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/e8964225.jpg",
+              "ingredients": [
+                "Pan pita integral 60 g, 1 pieza",
+                "Jamón, extra magro 40 g, 2 rebanadas",
+                "Queso Panela Lala Light 30 g, 1 rebanada",
+                "Salsa de tomate, sin sal 30 g, 0.1 taza",
+                "Espinaca, cruda 12 g, ⅕ taza",
+                "Champiñón fresco 18 g, ⅕ taza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "gp"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oambg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 0.5
+        },
+        {
+          "type": "Verdura",
+          "portion": 3.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 8
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 2
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 3
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 1
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 1
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "07-16-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Sandwich de pechuga de pollo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/85318664.jpg",
+              "ingredients": [
+                "Thins Bimbo 35 g, 1 pieza",
+                "Pollo, pechuga asada 60 g",
+                "Pepino, con cáscara 30 g, ⅓ taza",
+                "Queso Panela Lala Light 100 g, 3 ⅓ rebanadas",
+                "Tomate rojo 30 g, 3 rebanadas",
+                "Cebolla picada 10 g, 2 cucharadas",
+                "Germen de Alfalfa 10 g, ⅓ taza",
+                "Mostaza 3 g"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Sopa de pollo con lentejas",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/550891_778.jpg",
+              "ingredients": [
+                "Lentejas cocidas 90 g, ½ taza",
+                "Zanahoria 80 g, 1 taza",
+                "Jitomate bola 60 g",
+                "Pollo cocido 100 g",
+                "Cebolla blanca 15 g",
+                "Ajo 12 g, 3 cucharaditas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Uvas pica fresa",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1058215_902.webp",
+              "ingredients": [
+                "Uva roja o verde 84 g, 14 piezas",
+                "Chilito Sirilo 50 g, 10 cucharaditas"
+              ]
+            },
+            {
+              "title": "Gelatina D'Gari light Sabor fresa",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/255219_374.jpg",
+              "ingredients": [
+                "Gelatina D'Gari ligth (Polvo sabor fresa) 62.5 g, ¼ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Crepas de espinacas rellenas de champiñ",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/719340_621.jpg",
+              "ingredients": [
+                "Leche de almendras 60 ml, ¼ taza",
+                "Avena cruda en hojuelas 50 g, 1 ¼ tazas",
+                "Huevo entero fresco 100 g, 2 piezas",
+                "Espinaca, cruda 120 g, 2 tazas",
+                "Champiñón fresco 180 g, 2 tazas",
+                "Cebolla picada 25 g, 5 cucharadas",
+                "Pimiento rojo o verde 90 g, 1 taza",
+                "Ajo 4 g, 1 cucharadita",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 3.5,
+              "gs": "oabg"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 4,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3.5,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oamg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 10
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 3.5
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 1
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 8
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0.5
+        },
+        {
+          "type": "Grasa",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "07-17-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Pan francés",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661775_631.jpg",
+              "ingredients": [
+                "Pan integral tostado 58 g, 2 piezas",
+                "Clara de huevo 66 g, 2 piezas",
+                "Fresas 96 g, 8 piezas",
+                "Blueberries 54 g",
+                "Vainilla  ( extracto ) 10 g, 2 cucharaditas",
+                "Stevia (endulzante ) 2 g, 2 piezas",
+                "Miel maple sin azúcar (DGari) 15 g, 1 cucharada"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Caldo tlalpeño",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/638206_672.jpg",
+              "ingredients": [
+                "Agua 150 ml",
+                "Pollo, pechuga asada 120 g",
+                "Ejotes cocidos 32 g, ⅓ taza",
+                "Garbanzos cocidos 45 g, ¼ taza",
+                "Zanahoria 20 g, ¼ taza",
+                "Calabacita italiana 55 g, ½ pieza",
+                "Zumo de limón 10 ml",
+                "Chile chipotle adobado en lata 10 ml",
+                "Queso Panela Lala Light 60 g, 2 rebanadas"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Overnight Oats crema de cacahuate y plat",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/294373_201.jpg",
+              "ingredients": [
+                "Leche lala 100 sin lactosa proteína lig 125 ml, ½ vaso mediano",
+                "Plátano 30 g, ¼ pieza",
+                "Avena cruda en hojuelas 20 g, ½ taza",
+                "Crema de cacahuate 10 ml, 2 cucharadas",
+                "Canela en polvo 5 g, ⅓ cucharadita",
+                "Chía 5 g, 1 cucharada"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Carne de hamburguesa de pollo magra",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/209211_243.jpg",
+              "ingredients": [
+                "Molida de pollo crudo 60 g, 2 tazas",
+                "Huevo entero fresco 50 g, 1 pieza",
+                "Cebolla picada 10 g, 2 cucharadas",
+                "Cilantro 10 g, ⅕ taza"
+              ]
+            },
+            {
+              "title": "Thins Bimbo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/666868_880.jpg",
+              "ingredients": [
+                "Thins Bimbo 35 g, 1 pieza"
+              ]
+            },
+            {
+              "title": "Tomate y espinacas",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/708.png",
+              "ingredients": [
+                "Tomate 20 g, 2 rebanadas",
+                "Espinaca, cruda 60 g, 1 taza",
+                "Queso Panela Lala Light 30 g, 1 rebanada"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 4,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "leg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "led"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "gp"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oambg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oamg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 2
+        },
+        {
+          "type": "Verdura",
+          "portion": 2
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 4
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0.5
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 7
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 3
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 0.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 1
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 1
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "07-18-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Chilaquiles en salsa de frijoles",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/794427_219.jpg",
+              "ingredients": [
+                "Totopos horneados, sin sal 48 g, 48 unidades",
+                "Frijoles cocidos, sin grasa 172 g, 1 taza",
+                "Pollo, pechuga asada 90 g",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada",
+                "Cebolla morada 10 g"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Ensalada de pollo con aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752.png",
+              "ingredients": [
+                "Pechuga de pollo 120 g",
+                "Aguacate 31 g, ⅓ pieza",
+                "Lechuga o espinaca 45 g, 1 taza",
+                "Tomate cherry 40 g, 2 piezas",
+                "Quinoa cocida 140.85 g",
+                "Ajonjolí 7.5 g, 3 cucharaditas0.1 taza",
+                "Aderezo ranch, reducido en grasa 45 g, 3 cucharadas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Cacahuates",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/564.png",
+              "ingredients": [
+                "Cacahuates 12 g, 12 piezas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Bowl avena cocida y crema de maní",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/708d2652.jpg",
+              "ingredients": [
+                "Leche de almendras 120 ml, ½ taza",
+                "Yogurt griego, alto en proteina 60 ml, ¼ taza",
+                "Plátano 60 g, ½ pieza",
+                "Blueberries 40 g",
+                "Avena cruda en hojuelas 20 g, ½ taza",
+                "Crema de cacahuate 10 ml, 2 cucharadas",
+                "Linaza (semilla) 6 g, 1 cucharadita",
+                "Canela en polvo 2 g, 1 cucharadita"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "leg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 4,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "gp"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "azgr"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "gp"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "gp"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "led"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "fr"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1.5
+        },
+        {
+          "type": "Verdura",
+          "portion": 1
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 5
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 2
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 7
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 1
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 2
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 1
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 4
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "07-19-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:00",
+          "dishes": [
+            {
+              "title": "Huevos estrellados a la mexicana",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/747285_807.jpg",
+              "ingredients": [
+                "Huevo entero fresco 100 g, 2 piezas",
+                "Jitomate guaje o guajito 100 g",
+                "Cebolla blanca 53 g",
+                "Chile jalapeño 38 g",
+                "Cilantro 12 g, ⅕ taza",
+                "Tortilla de maíz 60 g, 2 piezas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 13:00",
+          "dishes": [
+            {
+              "title": "Tacos de carnitas de atún",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1066658_873.webp",
+              "ingredients": [
+                "Atún en agua, drenado 90 ml, 1 lata",
+                "Cebolla blanca 13 g",
+                "Cilantro 30 g, ½ taza",
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            },
+            {
+              "title": "Tortilla de maíz",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/739.png",
+              "ingredients": [
+                "Tortilla 66 g, 3 piezas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Media tarde 17:00",
+          "dishes": [
+            {
+              "title": "Kiwi con yogurth",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/181144_011.jpg",
+              "ingredients": [
+                "Yogurt griego, alto en proteina 240 ml, 1 taza",
+                "Kiwi 76 g, 1 pieza",
+                "KELLOGGS Low Fat Granola with Raisins 9 g, ¼ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 21:00",
+          "dishes": [
+            {
+              "title": "Guacamole con queso panela",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1117853_485.webp",
+              "ingredients": [
+                "Queso panela lala light 80 g, 2 rebanadas",
+                "Chile seco de arbol 5 g",
+                "Pimienta negra (especia) 5 g, 1 cucharadita",
+                "Aguacate 47 g, ½ pieza",
+                "Tomate rojo 50 g, 5 rebanadas",
+                "Cebolla blanca 13 g",
+                "Cilantro 30 g, ½ taza",
+                "Limón con  cáscara 70 g, ½ taza",
+                "Yogurt griego, alto en proteina 40 ml, ⅕ taza",
+                "Sanissimo (Tostada horneada) 24 g, 2 piezas"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:00"
+          }
+        ],
+        "Comida 13:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 13:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Comida 13:00"
+          }
+        ],
+        "Media tarde 17:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "led"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Media tarde 17:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "az"
+            },
+            "period": "Media tarde 17:00"
+          }
+        ],
+        "Cena 21:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "ve"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "led"
+            },
+            "period": "Cena 21:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Cena 21:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 5.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 6
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 3
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 3.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0.5
+        },
+        {
+          "type": "Grasa",
+          "portion": 2.5
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    }
+  ],
+  "06": [
+    {
+      "date": "06-17-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:30",
+          "dishes": [
+            {
+              "title": "Chilaquiles con pollo y queso",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/275077_838.jpg",
+              "ingredients": [
+                "Pollo, pechuga asada 90 g",
+                "Totopos horneados, sin sal 48 g, 48 unidades",
+                "Salsa roja o verde al gusto 40 g, 2 ⅔ cucharadas",
+                "Queso Panela Lala Light 60 g, 2 rebanadas",
+                "Crema agria reducida en grasa 14 ml, 1 cucharada",
+                "Aguacate 31 g, ⅓ pieza",
+                "Frijoles cocidos, sin grasa 43 g, ¼ taza"
+              ]
+            },
+            {
+              "title": "Agua de pepino con limon",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/dcd24423.jpg",
+              "ingredients": [
+                "Agua 200 ml",
+                "Pepino, pelado 30 g, ⅕ taza",
+                "Zumo de limón 10 ml",
+                "Stevia (endulzante ) 1 g, 1 pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Medio día 12:00",
+          "dishes": [
+            {
+              "title": "Uva verde",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/29.png",
+              "ingredients": [
+                "Uva verde 84 g, 14 piezas"
+              ]
+            },
+            {
+              "title": "Vitalinea estilo griego natural",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/85314646.jpg",
+              "ingredients": [
+                "Yogurth Vitalinea griego natural 125 g, 1 unidad"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 15:00",
+          "dishes": [
+            {
+              "title": "Calabacita rellena de carne molida opción de Tabom",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/bb760964.jpg",
+              "ingredients": [
+                "Calabaza cruda 60 g, 1 pieza",
+                "Molida de pollo 90 g",
+                "Queso Oaxaca light 60 g, 2 rebanadas",
+                "Sal 1 g, ⅕ cucharadita"
+              ]
+            },
+            {
+              "title": "Arroz integral cocido",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/833098_309.jpg",
+              "ingredients": [
+                "Arroz integral 100 g, ½ taza"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 46.5 g, ½ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 20:00",
+          "dishes": [
+            {
+              "title": "Quesadillas de champiñones",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/181177_560.jpg",
+              "ingredients": [
+                "Tortilla de maíz 90 g, 3 piezas",
+                "Queso Oaxaca Lala Light 90 g, 3 rebanadas",
+                "Espinaca cocida 90 g, ½ taza",
+                "Champiñones blancos, crudos 61 g, ½ taza",
+                "Ajo en polvo 3 g, 1 cucharadita",
+                "Cebolla en polvo 5 g, 2 cucharaditas",
+                "Sal de mesa yodada 2.5 g, ½ cucharadita",
+                "Crema agria, light 26 ml, 2 cucharadas",
+                "Salsa verde (Herdez) 45 g, 3 cucharadas"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:30": [
+          {
+            "request": {
+              "c": 5,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "az"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "leg"
+            },
+            "period": "Desayuno 10:30"
+          }
+        ],
+        "Medio día 12:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "led"
+            },
+            "period": "Medio día 12:00"
+          }
+        ],
+        "Comida 15:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oabg"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "cetu"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Comida 15:00"
+          }
+        ],
+        "Cena 20:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oabg"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "ve"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "g"
+            },
+            "period": "Cena 20:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 4
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 6.5
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0.5
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 8
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 5
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 1
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 2.5
+        },
+        {
+          "type": "Grasa",
+          "portion": 5.5
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "06-18-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:30",
+          "dishes": [
+            {
+              "title": "Huevo con espinacas",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/221365_756.jpg",
+              "ingredients": [
+                "Huevo entero fresco 100 g, 2 piezas",
+                "Espinaca, cruda 60 g, 1 taza"
+              ]
+            },
+            {
+              "title": "Salmas Sanissimo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752061_446.jpg",
+              "ingredients": [
+                "Salmas 18 g, 3 piezas"
+              ]
+            },
+            {
+              "title": "Frijoles refritos sin grasa",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/538.png",
+              "ingredients": [
+                "Frijoles refritos sin grasa 112.5 g, ½ taza"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Medio día 12:00",
+          "dishes": [
+            {
+              "title": "Licuado de fresa y avena",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/181148_925.jpg",
+              "ingredients": [
+                "Leche descremada 240 ml, 1 taza",
+                "Fresas 60 g, 5 piezas",
+                "Avena cruda en hojuelas 10 g, ¼ taza",
+                "Crema de cacahuate 10 ml, 2 cucharadas",
+                "Plátano 60 g, ½ pieza",
+                "Stevia (endulzante ) 1 g, 1 pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 15:00",
+          "dishes": [
+            {
+              "title": "Alambre de pollo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/786778_656.jpg",
+              "ingredients": [
+                "Pollo, pechuga asada 120 g",
+                "Pimiento rojo o verde 180 g, 2 tazas",
+                "Cebolla blanca 53 g",
+                "Queso Oaxaca Lala Light 30 g, 1 rebanada",
+                "Champiñón fresco 45 g, ½ taza",
+                "Calabacita italiana 55 g, ½ pieza"
+              ]
+            },
+            {
+              "title": "Tortilla de maíz",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/739.png",
+              "ingredients": [
+                "Tortilla 66 g, 3 piezas"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 20:00",
+          "dishes": [
+            {
+              "title": "Wrap de pavo y hummus opción en Green Up",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/708d9094.jpg",
+              "ingredients": [
+                "Pan pita integral 60 g, 1 pieza",
+                "Hummus 30 g, 2 cucharadas",
+                "Queso Panela Lala Light 30 g, 1 rebanada",
+                "Jamón de pavo 84 g, 4 rebanadas",
+                "Tomate rojo 50 g, 5 rebanadas",
+                "Aguacate 31 g, ⅓ pieza",
+                "Espinaca 30 g, ½ taza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:30": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "leg"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:30"
+          }
+        ],
+        "Medio día 12:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "led"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "fr"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "cetu"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "gp"
+            },
+            "period": "Medio día 12:00"
+          }
+        ],
+        "Comida 15:00": [
+          {
+            "request": {
+              "c": 4,
+              "gs": "oambg"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 4,
+              "gs": "ve"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Comida 15:00"
+          }
+        ],
+        "Cena 20:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "leg"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oabg"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Cena 20:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1.5
+        },
+        {
+          "type": "Verdura",
+          "portion": 5.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 9.5
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 2
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 1
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 3
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 1
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "06-19-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:30",
+          "dishes": [
+            {
+              "title": "Agua de pepino con limon",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/dcd24423.jpg",
+              "ingredients": [
+                "Agua 200 ml",
+                "Pepino, pelado 30 g, ⅕ taza",
+                "Zumo de limón 10 ml",
+                "Stevia (endulzante ) 1 g, 1 pieza"
+              ]
+            },
+            {
+              "title": "Tostadas de aguacate huevo y tomate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/258300_696.jpg",
+              "ingredients": [
+                "Pan de caja integral 60 g, 2 piezas",
+                "Tomate Cherry 30 g",
+                "Aguacate 46.5 g, ½ pieza",
+                "Huevo entero fresco 100 g, 2 piezas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Medio día 12:00",
+          "dishes": [
+            {
+              "title": "Licuado de platano y chocolate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661099_768.jpg",
+              "ingredients": [
+                "Plátano 120 g, 1 pieza",
+                "Cacao en polvo 10 g, 2 cucharadas",
+                "Vainilla  ( extracto ) 5 g, 1 cucharadita",
+                "Canela molida 2 g, 1 cucharadita",
+                "Leche descremada 245 ml, 1 taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 15:00",
+          "dishes": [
+            {
+              "title": "Tzic de res",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/749160_735.jpg",
+              "ingredients": [
+                "Cebolla picada 30 g, 6 cucharadas",
+                "Rabano chico 30 g",
+                "Cilantro 30 g, ½ taza",
+                "Naranja agria 30 g",
+                "Chile serrano 30 g",
+                "Filete de carne de res 120 g"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 46.5 g, ½ pieza"
+              ]
+            },
+            {
+              "title": "Arroz integral cocido",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/833098_309.jpg",
+              "ingredients": [
+                "Arroz integral 100 g, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 20:00",
+          "dishes": [
+            {
+              "title": "Mollete con pico de gallo",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661347_206.jpg",
+              "ingredients": [
+                "Bolillo integral 60 g, 1 pieza",
+                "Queso Panela Lala Light 120 g, 4 rebanadas",
+                "Frijoles cocidos, sin grasa 86 g, ½ taza",
+                "Tomate rojo 50 g, 5 rebanadas",
+                "Cebolla picada 20 g, 4 cucharadas",
+                "Chile serrano 10 g",
+                "Cilantro 10 g, ⅕ taza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:30": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:30"
+          }
+        ],
+        "Medio día 12:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "fr"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "az"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "led"
+            },
+            "period": "Medio día 12:00"
+          }
+        ],
+        "Comida 15:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "ve"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "fr"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 4,
+              "gs": "oambg"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "cetu"
+            },
+            "period": "Comida 15:00"
+          }
+        ],
+        "Cena 20:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 4,
+              "gs": "oabg"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "leg"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Cena 20:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 2.5
+        },
+        {
+          "type": "Verdura",
+          "portion": 3.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 6.5
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 1
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 4
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 2
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 1
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 1
+        },
+        {
+          "type": "Grasa",
+          "portion": 3
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "06-20-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:30",
+          "dishes": [
+            {
+              "title": "Agua de pepino con limon",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/dcd24423.jpg",
+              "ingredients": [
+                "Agua 200 ml",
+                "Pepino, pelado 30 g, ⅕ taza",
+                "Zumo de limón 10 ml",
+                "Stevia (endulzante ) 1 g, 1 pieza"
+              ]
+            },
+            {
+              "title": "Pan Tostado con Queso Panela y Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/417226_456.jpg",
+              "ingredients": [
+                "Queso Panela Lala Light 60 g, 2 rebanadas",
+                "Pan integral tostado 58 g, 2 piezas",
+                "Aguacate 23.25 g, ¼ pieza",
+                "Jamón de pavo 42 g, 2 rebanadas",
+                "Germinado de Alfalfa 100 g"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Medio día 12:00",
+          "dishes": [
+            {
+              "title": "Carlota de Mango",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/509092_130.jpg",
+              "ingredients": [
+                "Galleta maría 20 g, 5 piezas",
+                "Mango ataulfo 90 g, ½ pieza",
+                "Yogurt griego, alto en proteina 120 ml, ½ taza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 15:00",
+          "dishes": [
+            {
+              "title": "Enchiladas Verdes Saludables",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/832006_635.jpg",
+              "ingredients": [
+                "Crema agria reducida en grasa 14 ml, 1 cucharada",
+                "Lechuga 45 g, 1 taza",
+                "Aguacate 31 g, ⅓ pieza",
+                "Pollo, pechuga asada 90 g",
+                "Tomate verde 32 g, 2 piezas",
+                "Chile serrano 15 g",
+                "Cebolla blanca 13 g",
+                "Caldo de pollo, enlatado, condensado 100 g",
+                "Queso Oaxaca Lala Light 60 g, 2 rebanadas"
+              ]
+            },
+            {
+              "title": "Tortilla de maíz",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/739.png",
+              "ingredients": [
+                "Tortilla 66 g, 3 piezas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 20:00",
+          "dishes": [
+            {
+              "title": "Sándwich verde",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/1052653_676.webp",
+              "ingredients": [
+                "Calabacita italiana 55 g, ½ pieza",
+                "Pimienta negra (especia) 5 g, 1 cucharadita",
+                "Espinaca, cruda 60 g, 1 taza",
+                "Pan integral 70 g, 2 piezas",
+                "Queso Panela Lala Light 60 g, 2 rebanadas",
+                "Jamón de pavo 42 g, 2 rebanadas"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:30": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "oambg"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "g"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oabg"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Desayuno 10:30"
+          }
+        ],
+        "Medio día 12:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "led"
+            },
+            "period": "Medio día 12:00"
+          }
+        ],
+        "Comida 15:00": [
+          {
+            "request": {
+              "c": 2,
+              "gs": "g"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "ve"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 2.5,
+              "gs": "oabg"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Comida 15:00"
+          }
+        ],
+        "Cena 20:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 2,
+              "gs": "cetu"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oabg"
+            },
+            "period": "Cena 20:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 1
+        },
+        {
+          "type": "Verdura",
+          "portion": 3
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 8
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 0
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 5
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 6.5
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 1.5
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 3
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    },
+    {
+      "date": "06-21-2024",
+      "periods": [
+        {
+          "period": "Desayuno 10:30",
+          "dishes": [
+            {
+              "title": "Hot cakes de avena",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/56520770.jpg",
+              "ingredients": [
+                "Plátano 60 g, ½ pieza",
+                "Huevo entero fresco 50 g, 1 pieza",
+                "Avena cruda en hojuelas 20 g, ½ taza",
+                "Vainilla 8 g, 1 cucharadita",
+                "Canela en polvo 8 g, 1 cucharadita"
+              ]
+            },
+            {
+              "title": "Miel maple sin azúcar D'Gari",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/666901_536.jpg",
+              "ingredients": [
+                "Miel maple sin azúcar (DGari) 15 g, 1 cucharada"
+              ]
+            },
+            {
+              "title": "Fruta de temporada",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/752078_143.jpg",
+              "ingredients": [
+                "Fruta a escoger 212 g, 2 piezas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Medio día 12:00",
+          "dishes": [
+            {
+              "title": "Moras con Yogurt",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/417299_947.jpg",
+              "ingredients": [
+                "Chobani Yogurt Griego Natural Sin Grasa 150 ml, 1 pieza",
+                "Moras 75 g, ½ taza"
+              ]
+            },
+            {
+              "title": "Granola",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/542.png",
+              "ingredients": [
+                "Granola 21 g, 3 cucharaditas"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Comida 15:00",
+          "dishes": [
+            {
+              "title": "Fajitas de pollo con morrón",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/661913_869.jpg",
+              "ingredients": [
+                "Pollo, pechuga asada 120 g",
+                "Pimiento rojo o verde 45 g, ½ taza",
+                "Cebolla picada 10 g, 2 cucharadas"
+              ]
+            },
+            {
+              "title": "Frijoles refritos sin grasa",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/538.png",
+              "ingredients": [
+                "Frijoles refritos sin grasa 112.5 g, ½ taza"
+              ]
+            },
+            {
+              "title": "Tortilla de maíz",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/739.png",
+              "ingredients": [
+                "Tortilla 66 g, 3 piezas"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 46.5 g, ½ pieza"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "Cena 20:00",
+          "dishes": [
+            {
+              "title": "Quesadilla de maiz",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/181146_493.jpg",
+              "ingredients": [
+                "Tortilla de maíz 90 g, 3 piezas",
+                "Queso Panela Lala Light 90 g, 3 rebanadas",
+                "Crema agria, light 39 ml, 3 cucharadas",
+                "Espinaca cocida 90 g, ½ taza",
+                "Salsa verde (Herdez) 45 g, 3 cucharadas"
+              ]
+            },
+            {
+              "title": "Aguacate",
+              "imageUrl": "https://cdn.minutrimind.net/epco/user_r_img/thumb/658.png",
+              "ingredients": [
+                "Aguacate 31 g, ⅓ pieza"
+              ]
+            }
+          ]
+        }
+      ],
+      "equivalents": {
+        "Desayuno 10:30": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "fr"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "oamg"
+            },
+            "period": "Desayuno 10:30"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetu"
+            },
+            "period": "Desayuno 10:30"
+          }
+        ],
+        "Medio día 12:00": [
+          {
+            "request": {
+              "c": 1,
+              "gs": "led"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "fr"
+            },
+            "period": "Medio día 12:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "cetug"
+            },
+            "period": "Medio día 12:00"
+          }
+        ],
+        "Comida 15:00": [
+          {
+            "request": {
+              "c": 4,
+              "gs": "oambg"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 0.5,
+              "gs": "ve"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "leg"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Comida 15:00"
+          },
+          {
+            "request": {
+              "c": 1.5,
+              "gs": "g"
+            },
+            "period": "Comida 15:00"
+          }
+        ],
+        "Cena 20:00": [
+          {
+            "request": {
+              "c": 3,
+              "gs": "cetu"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 3,
+              "gs": "oambg"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 4,
+              "gs": "g"
+            },
+            "period": "Cena 20:00"
+          },
+          {
+            "request": {
+              "c": 1,
+              "gs": "ve"
+            },
+            "period": "Cena 20:00"
+          }
+        ]
+      },
+      "equivalentTable": [
+        {
+          "type": "Fruta",
+          "portion": 4
+        },
+        {
+          "type": "Verdura",
+          "portion": 1.5
+        },
+        {
+          "type": "Cereales y tubérculos",
+          "portion": 7
+        },
+        {
+          "type": "Cereales con grasa",
+          "portion": 1
+        },
+        {
+          "type": "Leguminosas",
+          "portion": 1.5
+        },
+        {
+          "type": "O.A muy bajo en grasa",
+          "portion": 7
+        },
+        {
+          "type": "O.A. bajo en grasa",
+          "portion": 0
+        },
+        {
+          "type": "O.A. moderado en grasa",
+          "portion": 1
+        },
+        {
+          "type": "O.A. alto en grasa",
+          "portion": 0
+        },
+        {
+          "type": "Leche descremada",
+          "portion": 1
+        },
+        {
+          "type": "Leche semidescremada",
+          "portion": 0
+        },
+        {
+          "type": "Leche entera",
+          "portion": 0
+        },
+        {
+          "type": "Azúcar",
+          "portion": 0
+        },
+        {
+          "type": "Grasa",
+          "portion": 5.5
+        },
+        {
+          "type": "Azúcar con grasa",
+          "portion": 0
+        },
+        {
+          "type": "Grasa con proteina",
+          "portion": 0
+        },
+        {
+          "type": "Suplemento de proteína",
+          "portion": 0
+        }
+      ]
+    }
+  ]
+}
