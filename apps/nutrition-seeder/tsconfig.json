@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "../../packages/typescript-configs/configs/node-library.tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "importHelpers": false,
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["**/*.ts"]
+}

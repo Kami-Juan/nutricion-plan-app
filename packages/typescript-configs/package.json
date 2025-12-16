@@ -1,0 +1,27 @@
+{
+  "name": "@k-health/typescript-configs",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Shared TypeScript configurations for the monorepo",
+  "scripts": {
+    "format": "biome format --write",
+    "lint": "biome check ."
+  },
+  "files": [
+    "./configs/*.json"
+  ],
+  "exports": {
+    "./base": "./configs/base.tsconfig.json",
+    "./browser-library": "./configs/browser-library.tsconfig.json",
+    "./nextjs": "./configs/nextjs.tsconfig.json",
+    "./node-library": "./configs/node-library.tsconfig.json",
+    "./react-library": "./configs/react-library.tsconfig.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}

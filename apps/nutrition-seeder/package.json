@@ -1,0 +1,27 @@
+{
+  "name": "@k-health/nutrition-seeder",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "tsx --env-file=.env src/main.ts",
+    "lint": "biome check",
+    "format": "biome format --write",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.87.1",
+    "axios": "catalog:",
+    "cheerio": "catalog:",
+    "lodash": "catalog:"
+  },
+  "devDependencies": {
+    "@k-health/typescript-configs": "workspace:*",
+    "@types/cheerio": "catalog:",
+    "@types/lodash": "catalog:",
+    "@types/node": "catalog:",
+    "supabase": "^2.67.1",
+    "tsx": "^4.21.0",
+    "typescript": "catalog:"
+  }
+}
