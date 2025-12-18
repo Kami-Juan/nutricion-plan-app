@@ -103,17 +103,17 @@ export const MenuPlan = ({ menus }: MenuPlanProps) => {
         </Button>
         <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
         <span className="font-medium text-foreground text-base sm:text-lg">
-          {formatMonthName(selectedMonth!)}
+          {formatMonthName(selectedMonth ?? "")}
         </span>
       </div>
 
       <div className="flex items-center gap-2 mb-6">
         <Clock className="h-5 w-5 text-primary" />
-        <h2 className="text-xl font-semibold">Menús de {formatMonthName(selectedMonth!)}</h2>
+        <h2 className="text-xl font-semibold">Menús de {formatMonthName(selectedMonth ?? "")}</h2>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {menus[selectedMonth!].map((menu) => (
+        {(menus[selectedMonth ?? ""] ?? []).map((menu) => (
           <Card
             key={menu.date}
             className={`p-4 hover:shadow-lg transition-all duration-200 cursor-pointer border-2 ${
@@ -156,11 +156,11 @@ export const MenuPlan = ({ menus }: MenuPlanProps) => {
           onClick={() => setSelectedMenu(null)}
           className="p-0 h-auto hover:text-primary text-base sm:text-lg"
         >
-          {formatMonthName(selectedMonth!)}
+          {formatMonthName(selectedMonth ?? "")}
         </Button>
         <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
         <span className="font-medium text-foreground text-base sm:text-lg">
-          {formatDate(selectedMenu!.date)}
+          {formatDate(selectedMenu?.date ?? "")}
         </span>
       </div>
 

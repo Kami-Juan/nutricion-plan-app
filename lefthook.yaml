@@ -1,0 +1,38 @@
+min_version: 2.0.2
+
+pre-commit:
+  parallel: false
+  commands:
+    biome-format:
+      priority: 1
+      glob: "*.{js,ts,jsx,tsx,json,jsonc,css}"
+      run: pnpm exec biome format --write {staged_files}
+      stage_fixed: true
+    biome-lint:
+      priority: 2
+      run: pnpm run lint
+    typecheck:
+      priority: 3
+      run: pnpm turbo run check-types
+
+post-merge:
+  only:
+    - ref: "dev"
+  commands:
+    install-node-dependencies:
+      priority: 1
+      glob:
+        - "**/package.json"
+      run: pnpm install
+    build-packages:
+      priority: 2
+      glob:
+        - "packages/**/*"
+      run: pnpm run build:packages
+
+output:
+  - meta
+  - execution
+  - execution_out
+  - failure
+  - success
