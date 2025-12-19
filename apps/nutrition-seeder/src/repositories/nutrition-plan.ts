@@ -155,7 +155,7 @@ export class NutritionPlanRepository implements INutritionPlanRepository {
       if (!mealPeriodId || !equivalentList || equivalentList.length === 0) continue;
 
       const equivalentsData = equivalentList
-        .filter((eq) => eq.request && eq.request.gs && eq.request.c !== undefined)
+        .filter((eq) => eq.request?.gs && eq.request.c !== undefined)
         .map((eq) => ({
           meal_period_id: mealPeriodId,
           group_code: eq.request.gs,
@@ -197,48 +197,40 @@ export class NutritionPlanRepository implements INutritionPlanRepository {
    */
   async loadPlanData(planData: NutritionPlanData): Promise<void> {
     console.log(`  📅 Processing: ${planData.date}`);
+    // 1. Insertar plan de nutrición
+    const nutritionPlanId = await this.insertNutritionPlan(planData);
+    console.log(`    ✓ Nutrition plan created/updated (ID: ${nutritionPlanId.substring(0, 8)}...)`);
 
-    try {
-      // 1. Insertar plan de nutrición
-      const nutritionPlanId = await this.insertNutritionPlan(planData);
-      console.log(
-        `    ✓ Nutrition plan created/updated (ID: ${nutritionPlanId.substring(0, 8)}...)`
-      );
+    // 2. Insertar períodos de comida
+    const periodMap = await this.insertMealPeriods(nutritionPlanId, planData.periods);
+    console.log(`    ✓ ${periodMap.size} meal periods inserted`);
 
-      // 2. Insertar períodos de comida
-      const periodMap = await this.insertMealPeriods(nutritionPlanId, planData.periods);
-      console.log(`    ✓ ${periodMap.size} meal periods inserted`);
+    // 3. Insertar platillos e ingredientes
+    let totalDishes = 0;
+    let totalIngredients = 0;
 
-      // 3. Insertar platillos e ingredientes
-      let totalDishes = 0;
-      let totalIngredients = 0;
+    for (const period of planData.periods) {
+      const mealPeriodId = periodMap.get(period.period);
+      if (!mealPeriodId) continue;
 
-      for (const period of planData.periods) {
-        const mealPeriodId = periodMap.get(period.period);
-        if (!mealPeriodId) continue;
-
-        await this.insertDishes(mealPeriodId, period.dishes);
-        totalDishes += period.dishes.length;
-        totalIngredients += period.dishes.reduce((sum, dish) => sum + dish.ingredients.length, 0);
-      }
-      console.log(`    ✓ ${totalDishes} dishes with ${totalIngredients} ingredients inserted`);
-
-      // 4. Insertar equivalentes nutricionales
-      const equivalentsCount = Object.values(planData.equivalents).reduce(
-        (sum, list) => sum + list.length,
-        0
-      );
-      await this.insertMealPeriodEquivalents(periodMap, planData.equivalents);
-      console.log(`    ✓ ${equivalentsCount} meal period equivalents inserted`);
-
-      // 5. Insertar resumen diario de nutrientes
-      await this.insertDailyNutrientSummary(nutritionPlanId, planData.equivalentTable);
-      console.log(`    ✓ ${planData.equivalentTable.length} nutrient summaries inserted`);
-
-      console.log(`  ✅ Successfully loaded: ${planData.date}\n`);
-    } catch (error) {
-      console.error(`  ❌ Error loading ${planData.date}:`, error);
-      throw error;
+      await this.insertDishes(mealPeriodId, period.dishes);
+      totalDishes += period.dishes.length;
+      totalIngredients += period.dishes.reduce((sum, dish) => sum + dish.ingredients.length, 0);
     }
+    console.log(`    ✓ ${totalDishes} dishes with ${totalIngredients} ingredients inserted`);
+
+    // 4. Insertar equivalentes nutricionales
+    const equivalentsCount = Object.values(planData.equivalents).reduce(
+      (sum, list) => sum + list.length,
+      0
+    );
+    await this.insertMealPeriodEquivalents(periodMap, planData.equivalents);
+    console.log(`    ✓ ${equivalentsCount} meal period equivalents inserted`);
+
+    // 5. Insertar resumen diario de nutrientes
+    await this.insertDailyNutrientSummary(nutritionPlanId, planData.equivalentTable);
+    console.log(`    ✓ ${planData.equivalentTable.length} nutrient summaries inserted`);
+
+    console.log(`  ✅ Successfully loaded: ${planData.date}\n`);
   }
 }

@@ -6,8 +6,7 @@ const main = async () => {
     await extractETL.execute();
     await transformETL.execute();
     await loadETL.execute();
-  } catch (error) {
-    console.error("ETL process failed:", error);
+  } catch {
     process.exit(1);
   }
 };

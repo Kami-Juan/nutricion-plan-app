@@ -2,7 +2,7 @@ import { api } from "@/configs/api";
 import type { GetEquivalentRequest } from "@/types";
 
 interface IDietaService {
-  getEquivalentInfo(req: GetEquivalentRequest, period: string): Promise<{ data: any }>;
+  getEquivalentInfo(req: GetEquivalentRequest, period: string): Promise<{ data: unknown }>;
 }
 
 export class DietaService implements IDietaService {

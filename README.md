@@ -5,6 +5,7 @@ A modern monorepo to explore menus, equivalents, and nutrition plans — featuri
 - [Getting Started](#getting-started)
 	- [Prerequisites](#prerequisites)
 	- [Installation](#installation)
+	- [Git Hooks (Lefthook)](#git-hooks-lefthook)
 	- [Recommended IDE Setup](#recommended-ide-setup)
 	- [Environment Configuration](#environment-configuration)
 	- [First Run](#first-run)
@@ -44,6 +45,28 @@ Install monorepo dependencies (workspaces and the catalog in [pnpm-workspace.yam
 ```bash
 pnpm install
 ```
+
+### Git Hooks (Lefthook)
+This repo uses **Lefthook** to run fast checks (lint/format/types) via **Git hooks** on commit/push.
+
+After cloning the repo and running `pnpm install`, enable hooks locally:
+
+```bash
+# Option A (recommended): install hooks using the local dependency (if present)
+pnpm lefthook install
+
+# Option B: run via pnpm dlx (no global install required)
+pnpm dlx lefthook install
+```
+
+To verify it’s installed:
+
+```bash
+ls -la .git/hooks
+```
+
+> Note: Git hooks are not versioned by Git by default, so each developer needs to run `lefthook install` once per clone.
+
 
 ### Recommended IDE Setup
 - Visual Studio Code
