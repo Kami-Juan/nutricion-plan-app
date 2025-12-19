@@ -14,6 +14,7 @@ export const EquivalentPeriodInfo = ({ onOpen, items }: EquivalentPeriodInfoProp
       <div className="grid gap-3">
         {items.map((item, index) => (
           <button
+            type="button"
             key={index}
             onClick={() => onOpen(item)}
             className="flex items-center justify-between p-3 rounded-lg hover:bg-secondary/10 transition-all duration-200 group text-left"

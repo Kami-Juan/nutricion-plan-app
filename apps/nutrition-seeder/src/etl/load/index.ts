@@ -29,9 +29,9 @@ export class LoadETL extends BaseETL<TransformETLData, TransformETLData> {
   }
 
   protected override async run(mappedData: TransformETLData): Promise<void> {
-    console.log("\n" + "=".repeat(70));
+    console.log(`\n${"=".repeat(70)}`);
     console.log("🚀 Starting Nutrition Plan Data Load to Supabase");
-    console.log("=".repeat(70) + "\n");
+    console.log(`${"=".repeat(70)}\n`);
 
     let totalPlans = 0;
     let successfulPlans = 0;
@@ -55,17 +55,15 @@ export class LoadETL extends BaseETL<TransformETLData, TransformETLData> {
         try {
           await this.nutritionPlanRepo.loadPlanData(plan);
           successfulPlans++;
-        } catch (error) {
+        } catch {
           failedPlans++;
           failedDates.push(plan.date);
-          console.error(`  ❌ Failed to load plan for ${plan.date}`);
-          console.error(`     Error: ${error instanceof Error ? error.message : String(error)}`);
         }
       }
     }
 
     // Resumen final
-    console.log("\n" + "=".repeat(70));
+    console.log(`\n${"=".repeat(70)}`);
     console.log("📊 MIGRATION SUMMARY");
     console.log("=".repeat(70));
     console.log(`Total plans processed:  ${totalPlans}`);
@@ -80,7 +78,7 @@ export class LoadETL extends BaseETL<TransformETLData, TransformETLData> {
       console.log(`\n❌ Failed dates: ${failedDates.join(", ")}`);
     }
 
-    console.log("=".repeat(70) + "\n");
+    console.log(`${"=".repeat(70)}\n`);
 
     if (failedPlans > 0) {
       throw new Error(`Migration completed with ${failedPlans} failed plans`);

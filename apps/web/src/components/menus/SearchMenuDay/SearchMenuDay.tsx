@@ -28,18 +28,30 @@ const formatMonthMenu = (month: string) => {
 };
 
 export const SearchMenuDay = ({ menus, onChange }: SearchMenuDayProps) => {
-  const defaultValue = useMemo(() => {
-    return menus[Object.keys(menus)[0]][0];
+  const defaultDate = useMemo(() => {
+    const [firstMonthKey] = Object.keys(menus);
+    if (!firstMonthKey) return undefined;
+
+    return menus[firstMonthKey]?.[0]?.date;
   }, [menus]);
+
+  const selectTriggerId = "menu-day-select-trigger";
 
   return (
     <div className="w-full space-y-2">
-      <label className="text-sm font-medium text-muted-foreground flex items-center gap-2">
+      <label
+        htmlFor={selectTriggerId}
+        className="text-sm font-medium text-muted-foreground flex items-center gap-2"
+      >
         <ChefHat className="h-4 w-4" />
         Selecciona tu menú del día
       </label>
-      <Select onValueChange={(value) => onChange(value)} defaultValue={defaultValue.date}>
-        <SelectTrigger className="w-full bg-white/50 backdrop-blur-sm border-2 hover:border-primary/50 transition-colors">
+
+      <Select onValueChange={(value) => onChange(value)} defaultValue={defaultDate}>
+        <SelectTrigger
+          id={selectTriggerId}
+          className="w-full bg-white/50 backdrop-blur-sm border-2 hover:border-primary/50 transition-colors"
+        >
           <SelectValue placeholder="Elige un menú personalizado" />
         </SelectTrigger>
         <SelectContent className="max-h-[300px]">
@@ -49,7 +61,7 @@ export const SearchMenuDay = ({ menus, onChange }: SearchMenuDayProps) => {
                 <CalendarDays className="h-4 w-4" />
                 {formatMonthMenu(monthMenu)}
               </SelectLabel>
-              {menus[monthMenu].map((menu) => (
+              {menus[monthMenu ?? ""]?.map((menu) => (
                 <SelectItem
                   value={menu.date}
                   key={menu.date}

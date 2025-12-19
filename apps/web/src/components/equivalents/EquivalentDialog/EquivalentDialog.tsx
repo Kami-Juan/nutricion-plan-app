@@ -28,7 +28,7 @@ export const EquivalentDialog = ({ equivalentData, ...props }: EquivalentDialogP
   const { data, isLoading } = useQuery({
     enabled: !!equivalentData,
     queryKey: ["equivalentData", equivalentData?.c, equivalentData?.gs],
-    queryFn: () => getEquivalentItems(equivalentData!.c, equivalentData!.gs)
+    queryFn: () => getEquivalentItems(equivalentData?.c ?? 0, equivalentData?.gs ?? "")
   });
 
   const renderSkeletons = () => (
