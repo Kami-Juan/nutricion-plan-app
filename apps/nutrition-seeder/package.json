@@ -10,7 +10,7 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.87.1",
+    "@supabase/supabase-js": "catalog:",
     "axios": "catalog:",
     "cheerio": "catalog:",
     "lodash": "catalog:"
@@ -20,8 +20,8 @@
     "@types/cheerio": "catalog:",
     "@types/lodash": "catalog:",
     "@types/node": "catalog:",
-    "supabase": "^2.67.1",
-    "tsx": "^4.21.0",
+    "supabase": "catalog:",
+    "tsx": "catalog:",
     "typescript": "catalog:"
   }
 }
