@@ -28,7 +28,7 @@
     "editor.defaultFormatter": "biomejs.biome"
   },
   "[yaml]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "docker.docker"
