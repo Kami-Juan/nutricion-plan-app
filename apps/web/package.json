@@ -11,10 +11,11 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@k-health/ui": "workspace:*",
+    "@logtape/logtape": "catalog:",
+    "@radix-ui/react-dialog": "catalog:",
     "@tanstack/react-query": "catalog:",
     "@tanstack/react-table": "catalog:",
-    "@radix-ui/react-dialog": "catalog:",
-    "@k-health/ui": "workspace:*",
     "axios": "catalog:",
     "cheerio": "catalog:",
     "clsx": "catalog:",
@@ -27,13 +28,13 @@
     "react-dom": "catalog:"
   },
   "devDependencies": {
+    "@k-health/typescript-configs": "workspace:*",
     "@tailwindcss/postcss": "catalog:",
     "@types/lodash": "catalog:",
     "@types/node": "catalog:",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
     "tailwindcss": "catalog:",
-    "typescript": "catalog:",
-    "@k-health/typescript-configs": "workspace:*"
+    "typescript": "catalog:"
   }
 }

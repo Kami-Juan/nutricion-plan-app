@@ -17,6 +17,7 @@ import type {
   NutritionPlanData
 } from "@/types";
 import { getFiles } from "@/utils";
+import { logger } from "@/utils/logging";
 
 export class TransformETL extends BaseETL<string[], Array<NutritionPlanData>> {
   protected override getData(): string[] {
@@ -186,5 +187,7 @@ export class TransformETL extends BaseETL<string[], Array<NutritionPlanData>> {
     fs.writeFileSync(transformPath, JSON.stringify(fileResult, null, 2), {
       encoding: "utf-8"
     });
+
+    logger.debug(`Transformed data written to: ${transformPath}`);
   }
 }

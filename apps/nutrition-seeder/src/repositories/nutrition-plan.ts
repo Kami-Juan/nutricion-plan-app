@@ -6,6 +6,7 @@ import type {
   NutrientPortionEntry,
   NutritionPlanData
 } from "@/types";
+import { logger } from "@/utils/logging";
 
 export type INutritionPlanRepository = {
   loadPlanData(planData: NutritionPlanData): Promise<void>;
@@ -196,14 +197,16 @@ export class NutritionPlanRepository implements INutritionPlanRepository {
    * Carga todos los datos de un plan nutricional completo
    */
   async loadPlanData(planData: NutritionPlanData): Promise<void> {
-    console.log(`  📅 Processing: ${planData.date}`);
+    logger.debug(`  📅 Processing: ${planData.date}`);
     // 1. Insertar plan de nutrición
     const nutritionPlanId = await this.insertNutritionPlan(planData);
-    console.log(`    ✓ Nutrition plan created/updated (ID: ${nutritionPlanId.substring(0, 8)}...)`);
+    logger.debug(
+      `    ✓ Nutrition plan created/updated (ID: ${nutritionPlanId.substring(0, 8)}...)`
+    );
 
     // 2. Insertar períodos de comida
     const periodMap = await this.insertMealPeriods(nutritionPlanId, planData.periods);
-    console.log(`    ✓ ${periodMap.size} meal periods inserted`);
+    logger.debug(`    ✓ ${periodMap.size} meal periods inserted`);
 
     // 3. Insertar platillos e ingredientes
     let totalDishes = 0;
@@ -217,7 +220,7 @@ export class NutritionPlanRepository implements INutritionPlanRepository {
       totalDishes += period.dishes.length;
       totalIngredients += period.dishes.reduce((sum, dish) => sum + dish.ingredients.length, 0);
     }
-    console.log(`    ✓ ${totalDishes} dishes with ${totalIngredients} ingredients inserted`);
+    logger.debug(`    ✓ ${totalDishes} dishes with ${totalIngredients} ingredients inserted`);
 
     // 4. Insertar equivalentes nutricionales
     const equivalentsCount = Object.values(planData.equivalents).reduce(
@@ -225,12 +228,12 @@ export class NutritionPlanRepository implements INutritionPlanRepository {
       0
     );
     await this.insertMealPeriodEquivalents(periodMap, planData.equivalents);
-    console.log(`    ✓ ${equivalentsCount} meal period equivalents inserted`);
+    logger.debug(`    ✓ ${equivalentsCount} meal period equivalents inserted`);
 
     // 5. Insertar resumen diario de nutrientes
     await this.insertDailyNutrientSummary(nutritionPlanId, planData.equivalentTable);
-    console.log(`    ✓ ${planData.equivalentTable.length} nutrient summaries inserted`);
+    logger.debug(`    ✓ ${planData.equivalentTable.length} nutrient summaries inserted`);
 
-    console.log(`  ✅ Successfully loaded: ${planData.date}\n`);
+    logger.debug(`  ✅ Successfully loaded: ${planData.date}\n`);
   }
 }

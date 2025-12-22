@@ -9,6 +9,7 @@ import type {
   NutritionalEquivalentKey
 } from "@/types";
 import { sleep } from "@/utils";
+import { logger } from "@/utils/logging";
 
 type ExtractETLMappingResult = {
   [k: string]: Array<EquivalentRequestPayload>;
@@ -48,7 +49,7 @@ export class ExtractETL extends BaseETL<string[], ExtractETLMappingResult> {
           const gs = ($(el).parent().attr("gs") || "None") as NutritionalEquivalentKey;
           const c = Number($(el).text());
 
-          console.log(`${periodTitle}: ${gs} - ${c}`);
+          logger.debug(`${periodTitle}: ${gs} - ${c}`);
 
           const equivalentRequest: GetEquivalentRequest = {
             c,
