@@ -1,0 +1,28 @@
+name: "Setup Node and Build packages"
+description: "Sets up Node.js environment and builds packages using pnpm"
+runs:
+  using: "composite"
+  steps:
+    - name: Install pnpm
+      uses: pnpm/action-setup@v3
+      with:
+        version: 10
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: ".nvmrc"
+        cache: "pnpm"
+        registry-url: "https://registry.npmjs.org"
+
+    - name: Install dependencies
+      run: pnpm install --frozen-lockfile
+
+    - name: Build Packages
+      run: pnpm build:packages
+
+    - name: Re-inject workspace packages with build artifacts
+      run: pnpm install --frozen-lockfile
+
+    - name: Build all apps
+      run: pnpm turbo build
