@@ -1,8 +1,6 @@
-import { ThemeProvider } from "@/providers/theme-provider";
-
-import Providers from "./providers";
-
 import type { Metadata } from "next";
+import { ThemeProvider } from "@/providers/theme-provider";
+import Providers from "./providers";
 
 import "@k-health/ui/globals.css";
 

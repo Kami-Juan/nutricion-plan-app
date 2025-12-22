@@ -6,7 +6,7 @@
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "check-types": {
-      "dependsOn": ["^check-types"]
+      "dependsOn": ["^build"]
     },
     "dev": {
       "persistent": true,

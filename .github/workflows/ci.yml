@@ -1,0 +1,28 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  quality:
+    name: Quality Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup-and-build
+
+      - name: Typecheck
+        run: pnpm turbo check-types
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Test
+        run: echo "Running tests... (Empty step)"
+
+      - name: Build
+        run: pnpm turbo build
