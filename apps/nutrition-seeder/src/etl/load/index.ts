@@ -3,6 +3,7 @@ import path from "node:path";
 import { BaseETL } from "@/core/base";
 import type { NutritionPlanRepository } from "@/repositories/nutrition-plan";
 import type { NutritionPlanData } from "@/types";
+import { logger } from "@/utils/logging";
 
 interface TransformETLData {
   [monthYear: string]: Array<NutritionPlanData>;
@@ -29,9 +30,9 @@ export class LoadETL extends BaseETL<TransformETLData, TransformETLData> {
   }
 
   protected override async run(mappedData: TransformETLData): Promise<void> {
-    console.log(`\n${"=".repeat(70)}`);
-    console.log("🚀 Starting Nutrition Plan Data Load to Supabase");
-    console.log(`${"=".repeat(70)}\n`);
+    logger.debug(`\n${"=".repeat(70)}`);
+    logger.debug("🚀 Starting Nutrition Plan Data Load to Supabase");
+    logger.debug(`${"=".repeat(70)}\n`);
 
     let totalPlans = 0;
     let successfulPlans = 0;
@@ -46,9 +47,9 @@ export class LoadETL extends BaseETL<TransformETLData, TransformETLData> {
       const plans = mappedData[monthYear];
       if (!plans) continue;
 
-      console.log(`\n📦 Processing Month: ${monthYear}/2024`);
-      console.log(`   Total plans: ${plans.length}`);
-      console.log("-".repeat(70));
+      logger.debug(`\n📦 Processing Month: ${monthYear}/2024`);
+      logger.debug(`   Total plans: ${plans.length}`);
+      logger.debug("-".repeat(70));
 
       for (const plan of plans) {
         totalPlans++;
@@ -63,22 +64,22 @@ export class LoadETL extends BaseETL<TransformETLData, TransformETLData> {
     }
 
     // Resumen final
-    console.log(`\n${"=".repeat(70)}`);
-    console.log("📊 MIGRATION SUMMARY");
-    console.log("=".repeat(70));
-    console.log(`Total plans processed:  ${totalPlans}`);
-    console.log(
+    logger.debug(`\n${"=".repeat(70)}`);
+    logger.debug("📊 MIGRATION SUMMARY");
+    logger.debug("=".repeat(70));
+    logger.debug(`Total plans processed:  ${totalPlans}`);
+    logger.debug(
       `✅ Successful:          ${successfulPlans} (${((successfulPlans / totalPlans) * 100).toFixed(1)}%)`
     );
-    console.log(
+    logger.debug(
       `❌ Failed:              ${failedPlans} (${((failedPlans / totalPlans) * 100).toFixed(1)}%)`
     );
 
     if (failedDates.length > 0) {
-      console.log(`\n❌ Failed dates: ${failedDates.join(", ")}`);
+      logger.debug(`\n❌ Failed dates: ${failedDates.join(", ")}`);
     }
 
-    console.log(`${"=".repeat(70)}\n`);
+    logger.debug(`${"=".repeat(70)}\n`);
 
     if (failedPlans > 0) {
       throw new Error(`Migration completed with ${failedPlans} failed plans`);
