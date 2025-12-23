@@ -37,6 +37,15 @@ pnpm --filter @k-health/k2 format    # format with Biome
 pnpm --filter @k-health/k2 run check-types  # TypeScript diagnostics
 ```
 
+## Environment Variables
+
+Create a `.env` file in the root of `apps/k2` with the following variables:
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
+```
+
 ## Notes
 - Next config: apps/k2/next.config.ts
 - Uses React 19 and Tailwind CSS 4.
