@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@import "@k-health/ui/globals.css";
+
+@source "../**/*.{ts,tsx}";
