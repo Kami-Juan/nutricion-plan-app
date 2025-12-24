@@ -1,4 +1,4 @@
-# Nutrition Plan App 🥗✨
+# K-health App 🥗✨
 
 A modern monorepo to explore menus, equivalents, and nutrition plans — featuring a Next.js web app and ingestion/ETL utilities to populate data into Supabase. Built with care, strict typing, and speedy tooling. 💚
 
@@ -77,7 +77,16 @@ ls -la .git/hooks
 	- Enable `editor.formatOnSave` to enjoy automatic Biome formatting.
 
 ### Environment Configuration
-The web app does not require environment variables for typical local development. The ingestion/ETL seeder does need Supabase credentials:
+The K2 app and web app require Supabase environment variables for client-side functionality. The ingestion/ETL seeder requires additional credentials:
+
+**K2 App** (see [apps/k2/.env](apps/k2/.env)):
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=...            # Your Supabase project URL
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=... # Public key for client-side auth
+```
+
+**Nutrition Seeder** (see [apps/nutrition-seeder/.env](apps/nutrition-seeder/.env)):
 
 1) Create a `.env` file under `apps/nutrition-seeder` with:
 
@@ -109,9 +118,16 @@ To focus solely on the web app (Next.js):
 pnpm --filter @k-health/web dev
 ```
 
+To focus on the k2 app:
+
+```bash
+pnpm --filter @k-health/k2 dev
+```
+
 Once the dev server is up, visit:
 
 - Web: http://localhost:3000
+- K2: http://localhost:3000 (may use a different port if running concurrently)
 
 To run the seeder (ingestion/ETL into Supabase) once your `.env` is set:
 
@@ -162,6 +178,17 @@ pnpm --filter @k-health/web format
 pnpm --filter @k-health/web run check-types
 ```
 
+K2 app (see [apps/k2/package.json](apps/k2/package.json)):
+
+```bash
+pnpm --filter @k-health/k2 dev
+pnpm --filter @k-health/k2 build
+pnpm --filter @k-health/k2 start
+pnpm --filter @k-health/k2 lint
+pnpm --filter @k-health/k2 format
+pnpm --filter @k-health/k2 run check-types
+```
+
 Nutrition Seeder (see [apps/nutrition-seeder/package.json](apps/nutrition-seeder/package.json)):
 
 ```bash
@@ -181,6 +208,16 @@ pnpm --filter @k-health/ui format
 pnpm --filter @k-health/ui run check-types
 ```
 
+Common Package (see [packages/common/package.json](packages/common/package.json)):
+
+```bash
+pnpm --filter @k-health/common build
+pnpm --filter @k-health/common dev           # build in watch mode
+pnpm --filter @k-health/common lint
+pnpm --filter @k-health/common format
+pnpm --filter @k-health/common run check-types
+```
+
 ### Testing & Quality
 - Biome Lint: `pnpm lint` at root or `pnpm --filter <pkg> lint` per package.
 - Formatting: `pnpm format` for consistent formatting.
@@ -192,8 +229,9 @@ pnpm --filter @k-health/ui run check-types
 A quick tour of the monorepo’s pieces 🧭
 
 ### Applications
-- Web (Next.js): primary UI, App Router, React 19, Tailwind CSS 4. Image domains and transpiled UI package configured at [apps/web/next.config.ts](apps/web/next.config.ts). Local data at [apps/web/src/api/data.json](apps/web/src/api/data.json).
-- Nutrition Seeder: ETL utilities to extract and transform menus/equivalents and load them into Supabase. Client setup in [apps/nutrition-seeder/src/configs/supabase.ts](apps/nutrition-seeder/src/configs/supabase.ts) and source API in [apps/nutrition-seeder/src/configs/api.ts](apps/nutrition-seeder/src/configs/api.ts). Pipelines in [apps/nutrition-seeder/src/etl](apps/nutrition-seeder/src/etl).
+- **K2** (Next.js): the main version of the app. Features App Router, React 19, Tailwind CSS 4. The future-focused implementation with full feature support. Deployed to production at [https://k-health.vercel.app/](https://k-health.vercel.app/) and dev environment at [https://k-health-git-dev-kamiganz0.vercel.app/](https://k-health-git-dev-kamiganz0.vercel.app/). See [apps/k2/package.json](apps/k2/package.json).
+- **Web** (Next.js): legacy version, no longer actively maintained. Image domains and transpiled UI package configured at [apps/web/next.config.ts](apps/web/next.config.ts). Local data at [apps/web/src/api/data.json](apps/web/src/api/data.json).
+- **Nutrition Seeder**: ETL utilities to extract and transform menus/equivalents and load them into Supabase. Client setup in [apps/nutrition-seeder/src/configs/supabase.ts](apps/nutrition-seeder/src/configs/supabase.ts) and source API in [apps/nutrition-seeder/src/configs/api.ts](apps/nutrition-seeder/src/configs/api.ts). Pipelines in [apps/nutrition-seeder/src/etl](apps/nutrition-seeder/src/etl).
 
 ### Frameworks
 - Next.js 15 (App Router) for the web app.
@@ -203,8 +241,9 @@ A quick tour of the monorepo’s pieces 🧭
 - Supabase (Auth, DB, Storage) for seeder persistence.
 
 ### Packages
-- UI (`@k-health/ui`): React component library with Vite build. Also exports global styles (see [packages/ui/src/styles/globals.css](packages/ui/src/styles/globals.css)).
-- TypeScript Configs (`@k-health/typescript-configs`): shared tsconfig bases (see [packages/typescript-configs/configs](packages/typescript-configs/configs)).
+- **Common** (`@k-health/common`): Hybrid (ESM/CJS) utility library with shared type definitions and helpers. Compatible with both Node.js (seeder, scripts) and browser (web/k2 apps). Built with Vite. See [packages/common/README.md](packages/common/README.md).
+- **UI** (`@k-health/ui`): React component library with Vite build. Also exports global styles (see [packages/ui/src/styles/globals.css](packages/ui/src/styles/globals.css)).
+- **TypeScript Configs** (`@k-health/typescript-configs`): shared tsconfig bases (see [packages/typescript-configs/configs](packages/typescript-configs/configs)).
 
 ## Contributing & Development Process
 
@@ -212,9 +251,30 @@ Contributions are welcome! 💫 Let’s keep things friendly, clear, and predict
 
 ### Git Workflow
 - Keep `main` clean.
-- Create feature/fix branches: `feat/<short-description>` or `fix/<short-description>`.
-- Semantic-style commits: `feat:`, `fix:`, `chore:`, `docs:`, `refactor:`, etc.
+- Create feature/fix branches with a **ticket reference** following this pattern:
+  - Features: `feat/KHEALTH-<ticket-number>-<short-description>`
+  - Fixes: `fix/KHEALTH-<ticket-number>-<short-description>`
+  - Chores: `chore/KHEALTH-<ticket-number>-<short-description>`
+
+  **Example:** `feat/KHEALTH-15-vercel-deploy` or `fix/KHEALTH-42-nutrition-seeder-timeout`
+
+- Semantic-style commits following [Commitizen](https://commitizen.github.io/cz-cli/) conventions:
+  - `feat: <description>` for new features
+  - `fix: <description>` for bug fixes
+  - `chore: <description>` for maintenance/tooling
+  - `docs: <description>` for documentation updates
+  - `refactor: <description>` for code refactoring
+
+  **Examples:**
+  ```
+  feat: add dark mode toggle to dashboard
+  fix: resolve nutrition plan loading timeout
+  chore: upgrade dependencies to latest versions
+  docs: update API documentation for seeder
+  ```
+
 - Small PRs, with lint/format/types passing.
+- Link the ticket number in PR descriptions and commits when applicable.
 
 ## Additional Documentation
 - Monorepo structure and catalog: [pnpm-workspace.yaml](pnpm-workspace.yaml)
